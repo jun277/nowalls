@@ -1,31 +1,4 @@
 proxies:
-- name: US_speednode_0139
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 64.188.70.233
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 🇩🇪DE_2|1.1MB/s
-  network: ws
-  port: '80'
-  server: 104.18.12.149
-  type: vless
-  udp: true
-  uuid: fc53bae5-92f5-4572-9ce8-9e56901479f1
-  ws-opts:
-    headers:
-      Host: 尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞3亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com.
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /amo-mohammad
-  xudp: true
 - name: DE_speednode_0058
   network: ws
   port: 8443
