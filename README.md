@@ -91,7 +91,12 @@
 9. 运行 `fetch.py`
 10. 你已获得完整订阅
 
-如果本地仓库长期未更新，请删除仓库并重新克隆来同步最新更改，不要使用 `git pull`。
+如果本地仓库长期未更新，也请使用 `--depth=1` 更新仓库：
+
+```bash
+git pull --depth=1
+git reset --hard origin/master
+```
 
 ## 一些题外话
 

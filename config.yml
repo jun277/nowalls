@@ -411,8 +411,9 @@ rules:
   - DOMAIN-KEYWORD,nowtv100,🚀 选择代理
   - DOMAIN-KEYWORD,rthklive,🚀 选择代理
   - DOMAIN-SUFFIX,rthk.hk,🚀 选择代理
+  - DOMAIN,news.tvb.com,🐟 漏网之鱼
   - DOMAIN-SUFFIX,mytvsuper.com,🚀 选择代理
-  - DOMAIN-SUFFIX,tvb.com,🚀 选择代理 # 不代理太慢了
+  - DOMAIN-SUFFIX,tvb.com,🚀 选择代理
   - DOMAIN-SUFFIX,tvb.com.hk,🚀 选择代理
 
   # > Netflix
