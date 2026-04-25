@@ -1,82 +1,17 @@
 proxies:
-- name: 'B - 🇯🇵 JP 09 TG: @nodpai'
-  password: e4756f1c-5ee3-487d-8a98-82bbc81f7e6b
-  port: 443
-  server: jp.co2.vn
-  skip-cert-verify: true
-  sni: www.linemo.jp
-  tls: true
-  type: trojan
-- client-fingerprint: chrome
-  name: 'B - 🇯🇵 JP 11 TG: @nodpai'
-  network: ws
-  password: 2399fe0a-b359-40a9-a3f0-b70c3c177a01
-  port: 443
-  server: freeyx.cloudflare88.eu.org
-  sni: aa.beijng.dpdns.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: aa.beijng.dpdns.org
-    path: /?ed=2048
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 'C - 🇯🇵 JP 17 TG: @nodpai'
-  network: ws
-  port: 16617
-  server: m.cnmjin.net
+  name: 'B - 🇯🇵 JP 04 TG: @nodpai'
+  port: 30806
+  server: v6.hdacd.com
   type: vmess
-  uuid: 7e49287b-d3b2-4abc-b646-879165dae7dc
-  ws-opts:
-    headers:
-      Host: 72fbf9ea0e889e56093a40dec0b5adb6.mobgslb.tbcache.com
-    path: /
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: 'C - 🇯🇵 JP 22 TG: @nodpai'
-  network: ws
-  password: 2399fe0a-b359-40a9-a3f0-b70c3c177a01
-  port: 443
-  server: cloudflare.182682.xyz
-  sni: aa.beijng.dpdns.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: aa.beijng.dpdns.org
-    path: /?ed=2048
-- client-fingerprint: chrome
-  name: 'C - 🇯🇵 JP 24 TG: @nodpai'
-  network: ws
-  password: 2399fe0a-b359-40a9-a3f0-b70c3c177a01
-  port: 443
-  server: cdn.tzpro.xyz
-  sni: aa.beijng.dpdns.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: aa.beijng.dpdns.org
-    path: /?ed=2048
-- client-fingerprint: chrome
-  name: 'C - 🇯🇵 JP 25 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 21 TG: @nodpai'
   network: ws
   password: 2399fe0a-b359-40a9-a3f0-b70c3c177a01
   port: 443
   server: cfip.1323123.xyz
-  sni: aa.beijng.dpdns.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: aa.beijng.dpdns.org
-    path: /?ed=2048
-- client-fingerprint: chrome
-  name: 'C - 🇯🇵 JP 26 TG: @nodpai'
-  network: ws
-  password: 2399fe0a-b359-40a9-a3f0-b70c3c177a01
-  port: 443
-  server: xn--b6gac.eu.org
   sni: aa.beijng.dpdns.org
   tls: true
   type: trojan

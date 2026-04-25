@@ -1,29 +1,43 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'C - 🇸🇬 SG 23 TG: @nodpai'
+  name: 'C - 🇸🇬 SG 16 TG: @nodpai'
   network: ws
   port: 16618
   server: planb.mojcn.com
   type: vmess
-  uuid: 7e49287b-d3b2-4abc-b646-879165dae7dc
+  udp: true
+  uuid: 1c9bfd97-6e19-4942-a225-5f1b6f143370
+  ws-headers:
+    Host: 997a4439f9df5fc29fda3811532f740b.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: 72fbf9ea0e889e56093a40dec0b5adb6.mobgslb.tbcache.com
+      Host: 997a4439f9df5fc29fda3811532f740b.mobgslb.tbcache.com
     path: /
-- client-fingerprint: chrome
-  name: 'C - 🇸🇬 SG 30 TG: @nodpai'
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇸🇬 SG 21 TG: @nodpai'
   network: ws
-  password: 2399fe0a-b359-40a9-a3f0-b70c3c177a01
-  port: 443
-  server: cf.0sm.com
-  sni: aa.beijng.dpdns.org
-  tls: true
-  type: trojan
+  port: 16618
+  server: m.cnmjin.net
+  type: vmess
+  udp: true
+  uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
+  ws-headers:
+    Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: aa.beijng.dpdns.org
-    path: /?ed=2048
+      Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
+    path: /
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇸🇬 SG 24 TG: @nodpai'
+  port: 51556
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
