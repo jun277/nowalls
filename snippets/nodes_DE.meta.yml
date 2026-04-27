@@ -1,22 +1,38 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: secure
-  name: 🇩🇪DE_1|1.5MB/s
-  network: grpc
+- name: SE_speednode_0092
+  network: ws
+  password: '!!str 1234567890'
   port: 443
-  reality-opts:
-    public-key: A4j57sDAA97uICmt2HhAW7PWMaV39gE6jy_VokhmI1k
-    short-id: '!!str 7c08356a875ff541'
-  server: 64.188.91.223
-  servername: germany3.nbbconnect.ru
+  server: 194.87.77.91
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-  uuid: 1becdc51-1b1a-4fb5-bbfb-06433b3f9dec
-  xudp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: SE_speednode_0094
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 194.87.77.2
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: 🇩🇪DE_4|2.0MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-de-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-de-002.fastervpn.world
+  tfo: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: DE_speednode_0035

@@ -1,12 +1,104 @@
 proxies:
 - client-fingerprint: chrome
+  name: 🇰🇷KR_1|1.2MB/s
+  network: ws
+  password: '!!str 1234567890'
+  port: '10088'
+  server: 118.47.197.17
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- client-fingerprint: chrome
+  name: 🇰🇷KR_2|1011KB/s
+  network: ws
+  password: '!!str 1234567890'
+  port: '34599'
+  server: 220.79.138.184
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 🇰🇷KR_3|1.3MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-kr-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-kr-001.fastervpn.world
+  tfo: false
+  type: hysteria2
+- name: 🇰🇷KR_4|1.2MB/s
+  network: ws
+  password: '!!str 1234567890'
+  port: 37215
+  server: 222.98.185.243
+  skip-cert-verify: true
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 🇰🇷KR_1|1.1MB/s
+  name: 🇰🇷KR_5|1.0MB/s
   network: ws
-  port: 31337
-  server: 175.206.85.140
+  port: 32773
+  server: 59.0.95.106
+  servername: mug.support.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: mug.support.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🇰🇷KR_6|1.4MB/s
+  network: ws
+  port: 10003
+  server: 183.102.55.197
+  servername: mug.support.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: mug.support.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🇰🇷KR_7|1.3MB/s
+  network: ws
+  port: 18888
+  server: 222.102.234.186
   servername: ynwta9.api-edge.fgfw.qzz.io
   skip-cert-verify: false
   tfo: false
@@ -21,42 +113,26 @@ proxies:
     max-early-data: 2560
     path: /danfeng
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇰🇷KR_2|1.1MB/s
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🇰🇷KR_8|1.5MB/s
   network: ws
-  port: '12292'
-  server: 59.2.28.80
-  servername: egt0bxw23s9tw4imuffg-m.zrf.xx.kg
+  port: 27015
+  server: 169.211.181.68
+  servername: mug.support.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: egt0bxw23s9tw4imuffg-m.zrf.xx.kg
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇰🇷KR_3|1.3MB/s
-  network: tcp
-  port: '19001'
-  reality-opts:
-    public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
-    short-id: '!!str '
-  server: krp01.jumperservice.com
-  servername: addons.mozilla.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 455fc271-3ee2-493b-8c75-9324b4851e2f
-  xudp: true
+      Host: mug.support.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng
 - name: KR_speednode_0073
   password: test.+
   port: 30446

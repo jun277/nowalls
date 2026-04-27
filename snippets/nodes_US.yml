@@ -1,119 +1,115 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'B - 🇺🇸 US 09 TG: @nodpai'
-  port: 180
-  server: 82.198.246.250
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 10 TG: @nodpai'
+  name: 'A - 🇺🇸 US 02 TG: @nodpai'
   network: ws
-  port: 16648
-  server: m.cnmjin.net
+  port: 3721
+  server: 38.78.144.143
+  skip-cert-verify: true
+  tls: false
   type: vmess
   udp: true
-  uuid: 87b04f1c-cd5f-43b0-a385-e9712f7a3db5
-  ws-headers:
-    Host: c4459e1e5ab171d4aecf29bb98f5e420.mobgslb.tbcache.com
+  uuid: ce79a23d-5a3c-491c-8a91-92a2fa4278cd
   ws-opts:
     headers:
-      Host: c4459e1e5ab171d4aecf29bb98f5e420.mobgslb.tbcache.com
+      Host: 38.78.144.143
     path: /
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 12 TG: @nodpai'
-  network: ws
-  port: 16648
-  server: planb.mojcn.com
-  type: vmess
-  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
-  ws-opts:
-    headers:
-      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
-    path: /
-- name: 'B - 🇺🇸 US 13 TG: @nodpai'
+- name: 'B - 🇺🇸 US 08 TG: @nodpai'
   network: ws
   password: 77b19c69-9840-443d-a66b-f08c81b6950a
   port: 443
-  server: 888.cloudflare.182682.xyz
-  sni: goog0419.bpusfaster2.top
+  server: 104.19.174.68
+  sni: px8r9i1b4k.bpusfaster2.top
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: goog0419.bpusfaster2.top
+      Host: px8r9i1b4k.bpusfaster2.top
     path: /images
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 14 TG: @nodpai'
-  port: 10002
-  server: ne-cbe4k7vz.neurix.sbs
-  servername: us03.neurix.icu
-  tls: true
-  type: vmess
-  uuid: 7f620257-50b3-4ed6-ac6e-6c6e80b237af
-- client-fingerprint: chrome
-  name: 'B - 🇺🇸 US 15 TG: @nodpai'
+- name: 'B - 🇺🇸 US 09 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 43.160.207.33
+  port: 2096
+  server: 172.64.147.106
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
-  tls: true
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 16 TG: @nodpai'
-  network: ws
-  port: 16648
-  server: planb.mojcn.com
-  type: vmess
-  udp: true
-  uuid: a95a83d7-b9cf-43ad-8c74-4df64f608422
-  ws-headers:
-    Host: ba81e2cd4af365e9a83fe38cc3223a19.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: ba81e2cd4af365e9a83fe38cc3223a19.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- name: 'B - 🇺🇸 US 17 TG: @nodpai'
+    path: /tr
+- name: 'B - 🇺🇸 US 11 TG: @nodpai'
   network: ws
   password: 77b19c69-9840-443d-a66b-f08c81b6950a
   port: 443
-  server: 777.cloudflare.182682.xyz
-  sni: goog0419.bpusfaster2.top
+  server: speed.cloudflare.182682.xyz
+  sni: ni5qwas2a6ysde23.usgogo202510.top
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: goog0419.bpusfaster2.top
+      Host: ni5qwas2a6ysde23.usgogo202510.top
     path: /images
-- name: 'C - 🇺🇸 US 19 TG: @nodpai'
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇺🇸 US 14 TG: @nodpai'
+  port: 180
+  server: 82.198.246.250
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 'B - 🇺🇸 US 15 TG: @nodpai'
+  network: ws
+  password: 77b19c69-9840-443d-a66b-f08c81b6950a
+  port: 443
+  server: 23.227.38.166
+  sni: ni5qwas2a6ysde23.usgogo202510.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ni5qwas2a6ysde23.usgogo202510.top
+    path: /images
+- name: 'B - 🇺🇸 US 16 TG: @nodpai'
+  network: ws
+  password: 77b19c69-9840-443d-a66b-f08c81b6950a
+  port: 443
+  server: 23.227.38.43
+  sni: 0o3vr2n5k2.bpuk2026.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ehofhoe.bpuk2026.top
+    path: /images
+- name: 'B - 🇺🇸 US 17 TG: @nodpai'
   network: ws
   password: '!!str 1234567890'
-  port: 443
-  server: 109.120.134.104
+  port: 8443
+  server: 2.27.120.108
   sni: kfm-bn0.pages.dev
   tls: true
   type: trojan
   ws-opts:
     headers:
       Host: kfm-bn0.pages.dev
-    path: /
-- name: 'C - 🇺🇸 US 21 TG: @nodpai'
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 'B - 🇺🇸 US 18 TG: @nodpai'
+  network: ws
+  password: 77b19c69-9840-443d-a66b-f08c81b6950a
+  port: 443
+  server: 777.cloudflare.182682.xyz
+  sni: px8r9i1b4k.bpusfaster2.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: goog0419.bpusfaster2.top
+    path: /images
+- name: 'B - 🇺🇸 US 20 TG: @nodpai'
   network: ws
   password: '!!str 1234567890'
   port: 443
-  server: 77.110.96.220
+  server: 64.188.118.193
   sni: kfm-bn0.pages.dev
   tls: true
   type: trojan
@@ -122,11 +118,25 @@ proxies:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - client-fingerprint: chrome
-  name: 'C - 🇺🇸 US 23 TG: @nodpai'
+  name: 'C - 🇺🇸 US 21 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 65.109.141.230
+  server: 193.23.201.26
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 'C - 🇺🇸 US 22 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 4196
+  server: 185.184.223.138
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -139,28 +149,34 @@ proxies:
   network: ws
   password: 77b19c69-9840-443d-a66b-f08c81b6950a
   port: 443
-  server: 141.193.213.199
-  sni: ehofhoe.bpuk2026.top
+  server: 104.19.173.68
+  sni: px8r9i1b4k.bpusfaster2.top
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: ehofhoe.bpuk2026.top
+      Host: px8r9i1b4k.bpusfaster2.top
     path: /images
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇺🇸 US 25 TG: @nodpai'
+- name: 'C - 🇺🇸 US 25 TG: @nodpai'
   network: ws
-  port: 16648
-  server: m.cnmjin.net
-  type: vmess
-  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
+  password: 77b19c69-9840-443d-a66b-f08c81b6950a
+  port: 443
+  server: csgo.com
+  sni: px8r9i1b4k.bpusfaster2.top
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
-    path: /
-- client-fingerprint: chrome
+      Host: px8r9i1b4k.bpusfaster2.top
+    path: /images
+- alterId: 2
+  cipher: auto
   name: 'C - 🇺🇸 US 26 TG: @nodpai'
+  port: 30824
+  server: v24.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 'C - 🇺🇸 US 30 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -173,63 +189,46 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 'C - 🇺🇸 US 28 TG: @nodpai'
-  network: ws
-  port: 16648
-  server: t.cnmjcn.cyou
+  name: 'C - 🇺🇸 US 31 TG: @nodpai'
+  port: 30804
+  server: v4.hdacd.com
   type: vmess
-  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
-  ws-opts:
-    headers:
-      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
-    path: /
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 美国|@ripaojiedian
   network: tcp
-  password: 1774240c00db2b77d5a99f6540c47b69
+  password: 69ecb45889d99f31b8ccc10bf8f76a72
   port: 4019
-  server: 54.249.145.163
+  server: 18.181.191.24
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
-  password: 1774240c00db2b77d5a99f6540c47b69
-  port: 3057
-  server: 18.183.76.130
+  password: 69ecb45889d99f31b8ccc10bf8f76a72
+  port: 4019
+  server: 18.183.167.10
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 44386
-  server: 43.198.80.162
+  port: 49534
+  server: 54.46.42.174
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US_1|1.4MB/s
+  name: 🇺🇸US_2|1.0MB/s
   port: 180
-  server: 82.198.246.9
+  server: 82.198.246.37
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_6|1.7MB/s
-  network: raw
-  port: '180'
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
 - name: US_speednode_0097
   network: ws
   password: '!!str 1234567890'
