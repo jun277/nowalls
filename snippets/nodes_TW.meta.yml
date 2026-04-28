@@ -1,28 +1,27 @@
 proxies:
-- client-fingerprint: chrome
+- alpn:
+  - http/1.1
   name: 'C - 🇹🇼 TW 04 TG: @nodpai'
   network: ws
   port: 6235
+  security: tls
   server: 125.227.219.98
   servername: baidu.com
-  skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
   uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d147
   ws-opts:
     headers:
       Host: baidu.com
     path: /xxxxhttp
-- client-fingerprint: chrome
-  encryption: none
+- alpn:
+  - http/1.1
   name: 'C - 🇹🇼 TW 05 TG: @nodpai'
   network: ws
   port: 6235
   security: tls
   server: 125.227.219.98
   servername: baidu.com
-  skip-cert-verify: true
   tls: true
   type: vless
   uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d146
@@ -32,20 +31,19 @@ proxies:
     path: /xxxxhttp
 - alpn:
   - http/1.1
-  name: 'C - 🇹🇼 TW 06 TG: @nodpai'
+  name: 'C - 🇹🇼 TW 07 TG: @nodpai'
   network: ws
   port: 6235
   security: tls
   server: 125.227.219.98
   servername: baidu.com
-  skip-cert-verify: true
   tls: true
   type: vless
   uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d149
   ws-opts:
     headers:
       Host: baidu.com
-    path: /xxxxhttpfp=chrome
+    path: /xxxxhttp
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision

@@ -1,7 +1,8 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'B - 🇭🇰 HK 15 TG: @nodpai'
+  client-fingerprint: chrome
+  name: 'B - 🇭🇰 HK 11 TG: @nodpai'
   network: ws
   port: 16622
   server: t.cnmjcn.cyou
@@ -11,9 +12,9 @@ proxies:
     headers:
       Host: 943b57a4316253b5c6ef402731b11d57.mobgslb.tbcache.com
     path: /
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 'D - 🇭🇰 HK 25 TG: @nodpai'
+  name: 'D - 🇭🇰 HK 24 TG: @nodpai'
   port: 54022
   server: 103.181.164.145
   type: vmess
@@ -27,42 +28,12 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰 香港3|@ripaojiedian
-  password: 69ecb45889d99f31b8ccc10bf8f76a72
-  port: 52687
-  server: 54.199.29.37
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇭🇰 香港4|@ripaojiedian
-  password: BxceQaOe
-  port: 50612
-  server: 95.40.57.109
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 🇭🇰 香港5|@ripaojiedian
-  password: BxceQaOe
-  port: 9211
-  server: 16.162.22.95
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: 香港|@ripaojiedian
-  network: tcp
-  port: '30807'
-  server: v10.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 香港3|@ripaojiedian
   network: tcp
   password: 69ecb45889d99f31b8ccc10bf8f76a72
   port: 52687
   server: 54.249.198.171
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 香港4|@ripaojiedian
@@ -81,3 +52,13 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 2
+  cipher: auto
+  name: 香港|@ripaojiedian
+  network: tcp
+  port: '30807'
+  server: v10.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

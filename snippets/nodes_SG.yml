@@ -1,11 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇸🇬 SG 30 TG: @nodpai'
-  port: 51556
-  server: 103.181.164.145
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 69ecb45889d99f31b8ccc10bf8f76a72
@@ -21,13 +14,6 @@ proxies:
   server: 160.16.132.38
   skip-cert-verify: false
   sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡3|@ripaojiedian
-  password: BxceQaOe
-  port: 25675
-  server: 52.194.223.24
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
   type: trojan
 - name: 新加坡3|@ripaojiedian
   network: tcp

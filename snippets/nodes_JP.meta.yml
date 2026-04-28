@@ -1,18 +1,31 @@
 proxies:
-- client-fingerprint: chrome
-  metadata:
-    cleanName: 韩国4
-    flag: 🇰🇷
-    multiplier: 1
-    originalName: 韩国4
-    region: 韩国
-    tags: []
-  name: 'A - 🇯🇵 JP 01 TG: @nodpai'
+- name: 'A - 🇯🇵 JP 01 TG: @nodpai'
   network: ws
   port: 49058
+  security: tls
   server: 45.93.29.223
-  servername: mbstxp9l73tpeylv.ymj.xx.kg
-  sni: mbstxp9l73tpeylv.ymj.xx.kg
+  servername: 1n9fo0l9hl.gike.dpdns.org
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 1n9fo0l9hl.gike.dpdns.org
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 韩国5
+    flag: 🇰🇷
+    multiplier: 1
+    originalName: 韩国5
+    region: 韩国
+    tags: []
+  name: 'A - 🇯🇵 JP 02 TG: @nodpai'
+  network: ws
+  port: 8998
+  server: 45.93.31.193
+  servername: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
+  sni: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
   tfo: false
   tls: true
   type: vless
@@ -20,7 +33,7 @@ proxies:
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: mbstxp9l73tpeylv.ymj.xx.kg
+      Host: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
     path: /@Marisa_kristi
 - name: 🇯🇵JP_2|1.8MB/s
   password: f8eca8df-a1a5-4918-a194-d34112a3673f
@@ -31,30 +44,28 @@ proxies:
   type: http
   username: f8eca8df-a1a5-4918-a194-d34112a3673f
 - client-fingerprint: chrome
-  encryption: none
-  name: 'A - 🇯🇵 JP 03 TG: @nodpai'
-  network: ws
-  port: 8998
-  security: tls
-  server: 45.93.31.193
-  servername: mbstxp9l73tpeylv.ymj.xx.kg
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: mbstxp9l73tpeylv.ymj.xx.kg
-    path: /@Marisa_kristi
-- name: 'A - 🇯🇵 JP 04 TG: @nodpai'
+  metadata:
+    cleanName: 美国1
+    flag: 🇺🇸
+    multiplier: 1
+    originalName: 美国1
+    region: 美国
+    tags: []
+  name: 'A - 🇯🇵 JP 04 TG: @nodpai'
   network: ws
   port: 10101
   server: 69.63.218.168
+  servername: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
+  sni: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
+  tfo: false
+  tls: true
   type: vless
+  udp: true
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: ji52i2alvx8ntcpgjev.acg.xx.kg
-    path: /%40Marisa_kristisecurity=tls
+      Host: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
+    path: /@Marisa_kristi
 - client-fingerprint: chrome
   metadata:
     cleanName: 美国5
@@ -67,70 +78,6 @@ proxies:
   network: ws
   port: 777
   server: 93.179.99.130
-  servername: mbstxp9l73tpeylv.ymj.xx.kg
-  sni: mbstxp9l73tpeylv.ymj.xx.kg
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: mbstxp9l73tpeylv.ymj.xx.kg
-    path: /@Marisa_kristi
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇯🇵 JP 06 TG: @nodpai'
-  network: tcp
-  port: 10000
-  reality-opts:
-    public-key: 4gYUXPoNpZB6NeR_1BjjM_p20Z4Kmrir-LGgVFl5mTg
-    short-id: '!!str 92e9c1a45bf5'
-  server: node101.nodejiajia.online
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 74484df2-6208-424a-a3f2-1561937b2f36
-- client-fingerprint: chrome
-  metadata:
-    cleanName: 新加坡4
-    flag: 🇸🇬
-    multiplier: 1
-    originalName: 新加坡4
-    region: 新加坡
-    tags: []
-  name: 'B - 🇯🇵 JP 07 TG: @nodpai'
-  network: ws
-  port: 15555
-  server: 52.221.219.94
-  servername: mbstxp9l73tpeylv.ymj.xx.kg
-  sni: mbstxp9l73tpeylv.ymj.xx.kg
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: mbstxp9l73tpeylv.ymj.xx.kg
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  metadata:
-    cleanName: 韩国3
-    flag: 🇰🇷
-    multiplier: 1
-    originalName: 韩国3
-    region: 韩国
-    tags: []
-  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
-  network: ws
-  port: 30016
-  server: 175.199.174.127
   servername: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
   sni: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
   tfo: false
@@ -142,272 +89,6 @@ proxies:
     headers:
       Host: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
     path: /@Marisa_kristi
-- client-fingerprint: chrome
-  metadata:
-    cleanName: 美国3
-    flag: 🇺🇸
-    multiplier: 1
-    originalName: 美国3
-    region: 美国
-    tags: []
-  name: 'B - 🇯🇵 JP 09 TG: @nodpai'
-  network: ws
-  port: 20046
-  server: 38.126.44.119
-  servername: mbstxp9l73tpeylv.ymj.xx.kg
-  sni: mbstxp9l73tpeylv.ymj.xx.kg
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: mbstxp9l73tpeylv.ymj.xx.kg
-    path: /@Marisa_kristi
-- name: 'B - 🇯🇵 JP 10 TG: @nodpai'
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 3235
-  server: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
-  tls: true
-  type: http
-  username: 1b609740-eec2-11ef-8543-f23c93136cb3
-- name: 'B - 🇯🇵 JP 11 TG: @nodpai'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-jp-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-jp-004.fastervpn.world
-  type: hysteria2
-- name: 'B - 🇯🇵 JP 12 TG: @nodpai'
-  password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
-  port: 443
-  server: 0178d9b3-te9j40-tir0zk-1hpo0.jp.oshuawei.com
-  sni: 0178d9b3-te9j40-tir0zk-1hpo0.jp.oshuawei.com
-  tls: true
-  type: http
-  username: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: 'B - 🇯🇵 JP 13 TG: @nodpai'
-  network: http
-  port: 58051
-  server: 103.127.243.55
-  tls: false
-  type: vmess
-  uuid: 8e5b521a-4a56-4bd7-baf1-bfcdf55d6cf1
-- client-fingerprint: chrome
-  metadata:
-    cleanName: 日本5
-    flag: 🇯🇵
-    multiplier: 1
-    originalName: 日本5
-    region: 日本
-    tags: []
-  name: 'B - 🇯🇵 JP 14 TG: @nodpai'
-  network: ws
-  port: 53557
-  server: 82.40.33.241
-  servername: mbstxp9l73tpeylv.ymj.xx.kg
-  sni: mbstxp9l73tpeylv.ymj.xx.kg
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: mbstxp9l73tpeylv.ymj.xx.kg
-    path: /@Marisa_kristi
-- name: 'B - 🇯🇵 JP 15 TG: @nodpai'
-  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-  port: 443
-  server: b318ac53-te7og0-tfmrui-duku.jp4.oshuawei.com
-  tls: true
-  type: http
-  username: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-- client-fingerprint: chrome
-  metadata:
-    cleanName: 德国3
-    flag: 🇩🇪
-    multiplier: 1
-    originalName: 德国3
-    region: 德国
-    tags: []
-  name: 'B - 🇯🇵 JP 16 TG: @nodpai'
-  network: ws
-  port: 20205
-  server: 146.70.20.110
-  servername: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
-  sni: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
-    path: /@Marisa_kristi
-- name: 'B - 🇯🇵 JP 17 TG: @nodpai'
-  password: f8eca8df-a1a5-4918-a194-d34112a3673f
-  port: 7443
-  server: jc7U654714155239.asia.steamliveonline.com
-  tls: true
-  type: http
-  username: f8eca8df-a1a5-4918-a194-d34112a3673f
-- client-fingerprint: chrome
-  metadata:
-    cleanName: 新加坡1
-    flag: 🇸🇬
-    multiplier: 1
-    originalName: 新加坡1
-    region: 新加坡
-    tags: []
-  name: 'B - 🇯🇵 JP 18 TG: @nodpai'
-  network: ws
-  port: 41899
-  server: 47.245.106.145
-  servername: mbstxp9l73tpeylv.ymj.xx.kg
-  sni: mbstxp9l73tpeylv.ymj.xx.kg
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: mbstxp9l73tpeylv.ymj.xx.kg
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  encryption: none
-  name: 'B - 🇯🇵 JP 19 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 202.144.192.37
-  servername: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
-  tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
-    path: /
-- name: 'B - 🇯🇵 JP 21 TG: @nodpai'
-  password: 0b869f32-657e-11ee-a90c-f23c9313b177
-  port: 8201
-  server: 0bd02acc-te8ao0-tfn5eh-24c4.tkodc1mpro.wkuaishou.com
-  tls: true
-  type: http
-  username: 0b869f32-657e-11ee-a90c-f23c9313b177
-- client-fingerprint: chrome
-  metadata:
-    cleanName: 日本2
-    flag: 🇯🇵
-    multiplier: 1
-    originalName: 日本2
-    region: 日本
-    tags: []
-  name: 'B - 🇯🇵 JP 22 TG: @nodpai'
-  network: ws
-  port: 36984
-  server: 13.112.176.52
-  servername: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
-  sni: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
-    path: /@Marisa_kristi
-- name: 'C - 🇯🇵 JP 23 TG: @nodpai'
-  password: f8eca8df-a1a5-4918-a194-d34112a3673f
-  port: 443
-  server: jdataU654714155239871.jcdn.cdnxiaohongshu.com
-  tls: true
-  type: http
-  username: f8eca8df-a1a5-4918-a194-d34112a3673f
-- name: 'C - 🇯🇵 JP 24 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 151.245.104.182
-  servername: dongjing4.zqjsqapi.com
-  tls: true
-  type: vless
-  uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
-  ws-opts:
-    path: /proxy
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'C - 🇯🇵 JP 25 TG: @nodpai'
-  port: 52006
-  security: tls
-  server: cluster-other-1.firstvideocdn.ru
-  servername: cluster-other-1.firstvideocdn.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 75807638-6f19-0190-ae08-38492ee85c88
-- name: 'C - 🇯🇵 JP 26 TG: @nodpai'
-  password: f8eca8df-a1a5-4918-a194-d34112a3673f
-  port: 443
-  server: jpfileU654714155239.harmonyoscloudcdn.com
-  tls: true
-  type: http
-  username: f8eca8df-a1a5-4918-a194-d34112a3673f
-- name: 🇯🇵 日本|@ripaojiedian
-  password: BxceQaOe
-  port: 3357
-  server: 18.181.191.24
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 🇯🇵 日本3|@ripaojiedian
-  password: 69ecb45889d99f31b8ccc10bf8f76a72
-  port: 2001
-  server: 52.197.216.139
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇯🇵 日本2|@ripaojiedian
-  password: 69ecb45889d99f31b8ccc10bf8f76a72
-  port: 9201
-  server: 43.198.79.128
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 日本|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 1951
-  server: 54.249.198.171
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 日本2|@ripaojiedian
-  network: tcp
-  password: 69ecb45889d99f31b8ccc10bf8f76a72
-  port: 4380
-  server: 52.197.180.134
-  sni: www.nintendogames.net
-  type: trojan
-- name: 日本3|@ripaojiedian
-  network: tcp
-  password: 69ecb45889d99f31b8ccc10bf8f76a72
-  port: 4380
-  server: 57.180.240.230
-  sni: www.nintendogames.net
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP_1|1.5MB/s
@@ -422,3 +103,275 @@ proxies:
     headers:
       Host: ithome.com
     path: /chat
+- client-fingerprint: chrome
+  encryption: none
+  name: 'B - 🇯🇵 JP 07 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 202.144.192.37
+  servername: ewgruiehoe.pages.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: ewgruiehoe.pages.dev
+    path: /
+- flow: xtls-rprx-vision
+  host: www.apple.com
+  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
+  network: tcp
+  port: 10000
+  reality-opts:
+    public-key: 4gYUXPoNpZB6NeR_1BjjM_p20Z4Kmrir-LGgVFl5mTg
+    short-id: '!!str 92e9c1a45bf5'
+  security: reality
+  server: node101.nodejiajia.online
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 74484df2-6208-424a-a3f2-1561937b2f36
+- client-fingerprint: chrome
+  name: 'B - 🇯🇵 JP 09 TG: @nodpai'
+  network: ws
+  port: 30016
+  security: tls
+  server: 175.199.174.127
+  servername: 1n9fo0l9hl.gike.dpdns.org
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 1n9fo0l9hl.gike.dpdns.org
+    path: /@Marisa_kristi
+- name: 'B - 🇯🇵 JP 10 TG: @nodpai'
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: 3235
+  server: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
+  tls: true
+  type: http
+  username: 1b609740-eec2-11ef-8543-f23c93136cb3
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 美国3
+    flag: 🇺🇸
+    multiplier: 1
+    originalName: 美国3
+    region: 美国
+    tags: []
+  name: 'B - 🇯🇵 JP 11 TG: @nodpai'
+  network: ws
+  port: 20046
+  server: 38.126.44.119
+  servername: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
+  sni: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
+    path: /@Marisa_kristi
+- name: 'B - 🇯🇵 JP 12 TG: @nodpai'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-004.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-004.fastervpn.world
+  type: hysteria2
+- name: 'B - 🇯🇵 JP 13 TG: @nodpai'
+  password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
+  port: 443
+  server: ea4b51c1-te5ts0-tir0zk-1hpo0.jp.oshuawei.com
+  sni: ea4b51c1-te5ts0-tir0zk-1hpo0.jp.oshuawei.com
+  tls: true
+  type: http
+  username: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇯🇵 JP 14 TG: @nodpai'
+  network: h2
+  port: 58051
+  server: 103.127.243.55
+  tls: true
+  type: vmess
+  uuid: 8e5b521a-4a56-4bd7-baf1-bfcdf55d6cf1
+- name: 'B - 🇯🇵 JP 15 TG: @nodpai'
+  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
+  port: 443
+  server: b318ac53-te7og0-tfmrui-duku.jp4.oshuawei.com
+  tls: true
+  type: http
+  username: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 日本5
+    flag: 🇯🇵
+    multiplier: 1
+    originalName: 日本5
+    region: 日本
+    tags: []
+  name: 'B - 🇯🇵 JP 16 TG: @nodpai'
+  network: ws
+  port: 53557
+  server: 82.40.33.241
+  servername: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
+  sni: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
+    path: /@Marisa_kristi
+- name: 'B - 🇯🇵 JP 17 TG: @nodpai'
+  password: f8eca8df-a1a5-4918-a194-d34112a3673f
+  port: 40443
+  server: jbU654714155239871.j4cdn.cdnxiaohongshu.com
+  tls: true
+  type: http
+  username: f8eca8df-a1a5-4918-a194-d34112a3673f
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇯🇵 JP 18 TG: @nodpai'
+  network: tcp
+  port: 52006
+  security: tls
+  server: cl-oth-1.edgeflux.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 75807638-6f19-0190-ae08-38492ee85c88
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 德国3
+    flag: 🇩🇪
+    multiplier: 1
+    originalName: 德国3
+    region: 德国
+    tags: []
+  name: 'B - 🇯🇵 JP 19 TG: @nodpai'
+  network: ws
+  port: 20205
+  server: 146.70.20.110
+  servername: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
+  sni: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 新加坡1
+    flag: 🇸🇬
+    multiplier: 1
+    originalName: 新加坡1
+    region: 新加坡
+    tags: []
+  name: 'B - 🇯🇵 JP 20 TG: @nodpai'
+  network: ws
+  port: 41899
+  server: 47.245.106.145
+  servername: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
+  sni: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
+    path: /@Marisa_kristi
+- name: 'B - 🇯🇵 JP 21 TG: @nodpai'
+  network: ws
+  port: 36984
+  security: tls
+  server: 13.112.176.52
+  servername: 1n9fo0l9hl.gike.dpdns.org
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 1n9fo0l9hl.gike.dpdns.org
+    path: /@Marisa_kristi
+- name: 'B - 🇯🇵 JP 22 TG: @nodpai'
+  password: 0b869f32-657e-11ee-a90c-f23c9313b177
+  port: 8201
+  server: 0bd02acc-te8ao0-tfn5eh-24c4.tkodc1mpro.wkuaishou.com
+  tls: true
+  type: http
+  username: 0b869f32-657e-11ee-a90c-f23c9313b177
+- name: 'B - 🇯🇵 JP 23 TG: @nodpai'
+  password: f8eca8df-a1a5-4918-a194-d34112a3673f
+  port: 443
+  server: jdataU654714155239871.jcdn.cdnxiaohongshu.com
+  tls: true
+  type: http
+  username: f8eca8df-a1a5-4918-a194-d34112a3673f
+- name: 'C - 🇯🇵 JP 24 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 151.245.104.182
+  tls: true
+  type: vless
+  uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
+  ws-opts:
+    path: /proxy
+- flow: xtls-rprx-vision
+  host: cluster-other-1.firstvideocdn.ru
+  name: 'C - 🇯🇵 JP 25 TG: @nodpai'
+  network: tcp
+  port: 52006
+  security: tls
+  server: cluster-other-1.firstvideocdn.ru
+  servername: cluster-other-1.firstvideocdn.ru
+  tls: true
+  type: vless
+  uuid: 75807638-6f19-0190-ae08-38492ee85c88
+- name: 'C - 🇯🇵 JP 26 TG: @nodpai'
+  password: f8eca8df-a1a5-4918-a194-d34112a3673f
+  port: 443
+  server: jpfileU654714155239.harmonyoscloudcdn.com
+  tls: true
+  type: http
+  username: f8eca8df-a1a5-4918-a194-d34112a3673f
+- name: 日本|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 1951
+  server: 54.249.198.171
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 日本2|@ripaojiedian
+  network: tcp
+  password: 69ecb45889d99f31b8ccc10bf8f76a72
+  port: 4380
+  server: 52.197.180.134
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 日本3|@ripaojiedian
+  network: tcp
+  password: 69ecb45889d99f31b8ccc10bf8f76a72
+  port: 4380
+  server: 57.180.240.230
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
