@@ -6,27 +6,13 @@ proxies:
     headers: {}
     path:
     - /ABCDE
-  name: 'C - 🇯🇵 JP 08 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 20 TG: @nodpai'
   network: http
   port: 55386
   server: 103.127.243.60
   tls: false
   type: vmess
   uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: 'C - 🇯🇵 JP 10 TG: @nodpai'
-  network: http
-  port: 54291
-  server: 103.127.243.66
-  type: vmess
-  uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

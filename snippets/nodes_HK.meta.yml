@@ -1,13 +1,27 @@
 proxies:
-- name: 'B - 🇭🇰 HK 03 TG: @nodpai'
-  password: 75356919-6ece-455c-ba7a-9f042a60d2c5
-  port: 443
-  server: tn.xbs54as9c6.ru
-  skip-cert-verify: true
-  sni: live.ok.ru
-  type: hysteria2
 - client-fingerprint: chrome
-  name: 'B - 🇭🇰 HK 04 TG: @nodpai'
+  encryption: none
+  http-opts:
+    headers:
+      Host:
+      - app.usercentrics.eu
+    path:
+    - /
+  name: 'B - 🇭🇰 HK 01 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+    short-id: '!!str '
+  server: 8.218.118.237
+  servername: app.usercentrics.eu
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  xudp: true
+- client-fingerprint: chrome
+  name: 'B - 🇭🇰 HK 03 TG: @nodpai'
   port: 443
   reality-opts:
     public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
@@ -19,23 +33,7 @@ proxies:
   type: vless
   udp: true
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇭🇰 HK 05 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6eN2NciEaZis5J4muRRqpfLQ1OglI3A8lNSTmAGo6Do
-    short-id: '!!str 3c6fc84d'
-  security: reality
-  server: 64.188.58.186
-  servername: stats.vk-portal.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 8ef19221-6d5e-4bce-baa1-7c043eae3309
-- name: 'B - 🇭🇰 HK 06 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 04 TG: @nodpai'
   obfs: salamander
   obfs-password: YmGRdMZ74sEC91FN
   password: de8e0342-ea12-4f9d-bc2a-e62409e1913f
@@ -45,7 +43,7 @@ proxies:
   sni: hkzz.66jc.xyz
   type: hysteria2
   udp: true
-- name: 'B - 🇭🇰 HK 07 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 05 TG: @nodpai'
   network: ws
   port: 17820
   security: tls
@@ -59,35 +57,65 @@ proxies:
     headers:
       Host: 48afa0c5c9.shopify.com
     path: /db102448afa0c5c9fp=chrome
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇭🇰 HK 08 TG: @nodpai'
-  network: tcp
-  port: 8080
-  reality-opts:
-    public-key: bXstTdAgEyOn8LEMM_K2gIOw7T2iKhr6l-lXcrF4PlM
-  security: reality
-  server: hk.chinablog.xyz
-  servername: www.liblib.art
-  tls: true
-  type: vless
-  uuid: 360f1d71-f8dd-4c71-aa4f-347486312dca
-- client-fingerprint: chrome
-  encryption: none
-  name: 'C - 🇭🇰 HK 11 TG: @nodpai'
+- name: 'C - 🇭🇰 HK 06 TG: @nodpai'
   network: ws
   port: 443
   security: tls
-  server: 188.114.98.0
-  servername: dabaius2.sylu.net
+  server: 194.87.91.192
+  servername: shdows.feifanlib.fun
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 3f9c8463-8610-3ed8-86c8-a26713067825
+  uuid: e883ddd8-4011-4fac-9971-1ac3671475b8
   ws-opts:
     headers:
-      Host: dabaius2.sylu.net
-    path: /db10240eb751d6ab
+      Host: shdows.feifanlib.fun
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 'C - 🇭🇰 HK 07 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 93.180.132.165
+  servername: shdows.feifanlib.fun
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: e883ddd8-4011-4fac-9971-1ac3671475b8
+  ws-opts:
+    headers:
+      Host: shdows.feifanlib.fun
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 'C - 🇭🇰 HK 08 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 212.64.199.152
+  servername: shdows.feifanlib.fun
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: e883ddd8-4011-4fac-9971-1ac3671475b8
+  ws-opts:
+    headers:
+      Host: shdows.feifanlib.fun
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- alterId: 64
+  cipher: auto
+  name: 'D - 🇭🇰 HK 09 TG: @nodpai'
+  port: 54022
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 'D - 🇭🇰 HK 10 TG: @nodpai'
+  network: ws
+  port: 80
+  server: 104.17.150.99
+  type: vless
+  uuid: 5aa7d17e-7dc2-46dd-9acf-c3c97440259b
+  ws-opts:
+    headers:
+      Host: sss.yaml7.ggff.net
+    path: /?ed=2048
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
@@ -97,13 +125,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 64
-  cipher: auto
-  name: 'D - 🇭🇰 HK 13 TG: @nodpai'
-  port: 54022
-  server: 103.181.164.145
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 香港3|@ripaojiedian
   network: tcp
   password: 69ecb45889d99f31b8ccc10bf8f76a72
@@ -158,6 +179,19 @@ proxies:
   password: 8r<[9'l6hAO#8ZQi
   port: 52122
   server: 116.206.178.205
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇭🇰HK_3|1.1MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 58879
+  server: 103.244.88.189
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true

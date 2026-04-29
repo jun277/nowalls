@@ -1,49 +1,17 @@
 proxies:
-- name: 'A - 🇸🇬 SG 01 TG: @nodpai'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-sg-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-sg-002.fastervpn.world
-  type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'C - 🇸🇬 SG 03 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 9WnuH4KUb9-cCqbApq4bVLDhrqhPbpnd5eTn14bGciA
-    short-id: '!!str b211e46c93'
-  security: reality
-  server: lol-sgp-0001.api.neuralrelay.stream
-  servername: hls-svod.itunes.apple.com
-  spider-x: /
-  tls: true
-  type: vless
-  uuid: c603d9a2-a89a-4b62-ac96-346d3b52620c
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 'C - 🇸🇬 SG 04 TG: @nodpai'
-  network: ws
-  port: 443
-  server: sg-2za3n.knotic.space
-  servername: sg-2za3n.knotic.space
-  skip-cert-verify: false
-  tls: true
+  name: 'B - 🇸🇬 SG 01 TG: @nodpai'
+  port: 30845
+  server: v45.hdacd.com
   type: vmess
-  udp: true
-  uuid: 7b7c28e4-f570-4b4e-ba33-fe271d3e6828
-  ws-opts:
-    headers:
-      Host: sg-2za3n.knotic.space
-    path: /download
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - encryption: none
-  name: 'C - 🇸🇬 SG 05 TG: @nodpai'
+  name: 'C - 🇸🇬 SG 02 TG: @nodpai'
   network: ws
   port: 443
   security: tls
-  server: 45.40.153.42
+  server: 185.7.240.42
   servername: snippet.danfeng.rr.kg
   tls: true
   type: vless
@@ -55,7 +23,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 'C - 🇸🇬 SG 06 TG: @nodpai'
+  name: 'C - 🇸🇬 SG 03 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
@@ -70,7 +38,23 @@ proxies:
   uuid: f189684b-6213-4c0d-a2e3-cb8860f5d4c5
 - client-fingerprint: chrome
   encryption: none
-  name: 'C - 🇸🇬 SG 07 TG: @nodpai'
+  flow: xtls-rprx-vision
+  name: 'C - 🇸🇬 SG 04 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 9WnuH4KUb9-cCqbApq4bVLDhrqhPbpnd5eTn14bGciA
+    short-id: '!!str b211e46c93'
+  security: reality
+  server: lol-sgp-0001.api.neuralrelay.stream
+  servername: hls-svod.itunes.apple.com
+  spider-x: /
+  tls: true
+  type: vless
+  uuid: c603d9a2-a89a-4b62-ac96-346d3b52620c
+- client-fingerprint: chrome
+  encryption: none
+  name: 'C - 🇸🇬 SG 05 TG: @nodpai'
   network: ws
   port: 2083
   security: tls
@@ -83,124 +67,16 @@ proxies:
     headers:
       Host: 1-aym.pages.dev
     path: /
-- encryption: none
-  name: 'C - 🇸🇬 SG 08 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 45.205.0.42
-  servername: snippet.danfeng.rr.kg
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.rr.kg
-    path: /danfeng
-- encryption: none
-  name: 'C - 🇸🇬 SG 09 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 185.7.240.42
-  servername: snippet.danfeng.rr.kg
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.rr.kg
-    path: /danfeng
-- encryption: none
-  name: 'C - 🇸🇬 SG 10 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 50.62.175.42
-  servername: snippet.danfeng.rr.kg
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.rr.kg
-    path: /danfeng
-- encryption: none
-  name: 'C - 🇸🇬 SG 11 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 198.71.232.42
-  servername: snippet.danfeng.rr.kg
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.rr.kg
-    path: /danfeng
-- encryption: none
-  name: 'C - 🇸🇬 SG 12 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 139.59.250.249
-  servername: snippet.danfeng.rr.kg
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.rr.kg
-    path: /danfeng
-- encryption: none
-  name: 'C - 🇸🇬 SG 13 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 198.71.191.42
-  servername: snippet.danfeng.rr.kg
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.rr.kg
-    path: /danfeng
-- name: 'C - 🇸🇬 SG 14 TG: @nodpai'
-  network: ws
-  port: 80
-  server: 141.193.213.21
-  type: vless
-  uuid: fac62eac-1eec-4260-a991-0cac2f8745a3
-  ws-opts:
-    headers:
-      Host: free-server.techsonic.ggff.net
-    path: /@Tech_Sonic
 - alterId: 0
   cipher: auto
-  name: 'C - 🇸🇬 SG 16 TG: @nodpai'
+  name: 'C - 🇸🇬 SG 06 TG: @nodpai'
   port: 51556
   server: 103.181.164.145
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- encryption: none
-  name: 'C - 🇸🇬 SG 17 TG: @nodpai'
-  network: ws
-  port: 56047
-  security: tls
-  server: 188.209.141.114
-  servername: snippet.gfw.qzz.io
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snippet.gfw.qzz.io
-    path: /danfeng
 - client-fingerprint: chrome
   encryption: none
-  name: 'D - 🇸🇬 SG 18 TG: @nodpai'
+  name: 'D - 🇸🇬 SG 07 TG: @nodpai'
   network: ws
   port: 2096
   security: tls
