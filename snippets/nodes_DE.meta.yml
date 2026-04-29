@@ -1,17 +1,12 @@
 proxies:
-- name: 🇩🇪DE_1|1.6MB/s
-  network: ws
-  port: 2083
-  server: xn-dns.onlineblog.ir
-  servername: xn-de.shakhle.ir.
-  tls: true
-  type: vless
-  udp: true
-  uuid: b24484be-a335-472c-8dff-060ccd2b8f3b
-  ws-opts:
-    headers:
-      Host: xn-de.shakhle.ir.
-    path: /
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 🇩🇪DE_1|2.2MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-de-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-de-001.fastervpn.world
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: DE_speednode_0005

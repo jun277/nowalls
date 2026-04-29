@@ -1,21 +1,26 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'B - 🇺🇸 US 03 TG: @nodpai'
-  port: 180
-  server: 82.198.246.233
+  name: 'A - 🇺🇸 US 03 TG: @nodpai'
+  network: ws
+  port: 16648
+  server: planb.mojcn.com
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: c3bb4d48-63db-439e-bb4b-a541729c4f72
+  ws-opts:
+    headers:
+      Host: b51d264b1d49f78bcc89624068d93405.mobgslb.tbcache.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: 'B - 🇺🇸 US 04 TG: @nodpai'
+  name: 'B - 🇺🇸 US 06 TG: @nodpai'
   port: 180
   server: 82.198.246.37
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 'B - 🇺🇸 US 05 TG: @nodpai'
+  name: 'B - 🇺🇸 US 07 TG: @nodpai'
   network: ws
   port: 443
   server: sanjose01.zgjok.com
@@ -29,53 +34,93 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 'B - 🇺🇸 US 06 TG: @nodpai'
+  name: 'B - 🇺🇸 US 10 TG: @nodpai'
   port: 180
   server: 82.198.246.214
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国4|@ripaojiedian
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 22 TG: @nodpai'
-  port: 180
-  server: 82.198.246.97
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 'B - 🇺🇸 US 26 TG: @nodpai'
+- client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 13 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 95.164.55.80
+  port: 443
+  server: 45.40.148.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇺🇸 US 33 TG: @nodpai'
+- name: 'B - 🇺🇸 US 17 TG: @nodpai'
   network: ws
-  port: 16648
-  server: m.cnmjin.net
-  type: vmess
-  uuid: c3bb4d48-63db-439e-bb4b-a541729c4f72
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 194.59.5.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
   ws-opts:
     headers:
-      Host: b51d264b1d49f78bcc89624068d93405.mobgslb.tbcache.com
-    path: /
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  name: 'C - 🇺🇸 US 38 TG: @nodpai'
+  name: 'B - 🇺🇸 US 19 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 114.129.43.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 23 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 185.106.94.130
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇺🇸 US 25 TG: @nodpai'
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  sni: epge.muarua.filegear-sg.me
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: epge.muarua.filegear-sg.me
+    path: /
+- name: 'C - 🇺🇸 US 29 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 139.59.239.116
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 'C - 🇺🇸 US 35 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -88,9 +133,30 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 'C - 🇺🇸 US 36 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 65.109.186.249
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 2
+  cipher: auto
+  name: 'C - 🇺🇸 US 37 TG: @nodpai'
+  port: 30804
+  server: v4.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 'C - 🇺🇸 US 45 TG: @nodpai'
+  name: 'C - 🇺🇸 US 43 TG: @nodpai'
   network: ws
   port: 16648
   server: t.cnmjcn.cyou
@@ -126,6 +192,15 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
+  name: 🇺🇸 美国4|@ripaojiedian
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
   name: 美国4|@ripaojiedian
   network: tcp
   port: '180'
@@ -134,3 +209,21 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: aes-256-cfb
+  name: 🇺🇸US_1|1.1MB/s
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 104.192.226.106
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_3|1.8MB/s
+  network: raw
+  port: '180'
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true

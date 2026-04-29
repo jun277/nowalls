@@ -25,7 +25,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 'C - 🇹🇼 TW 11 TG: @nodpai'
+  name: 🇹🇼TW_1|1.5MB/s
   network: ws
   port: 16616
   server: t.cnmjcn.cyou

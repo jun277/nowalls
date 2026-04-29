@@ -1,12 +1,20 @@
 proxies:
-- name: 🇬🇧 英国-FF75EC41|2.0MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-uk-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-uk-002.fastervpn.world
-  tfo: false
-  type: hysteria2
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_1|1.8MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: uZtXFNqixYWmhbmlK8HSo7r7pAIrdT7oCgXPSLOb1S0
+    short-id: '!!str cd5a129afaf66a94'
+  server: gb.prowebcore.ru
+  servername: gb.prowebcore.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 08a20674-fe78-4eae-bcd8-6f44480a3392
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: GB_speednode_0008

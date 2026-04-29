@@ -83,7 +83,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 'C - 🇹🇼 TW 11 TG: @nodpai'
+  name: 🇹🇼TW_1|1.5MB/s
   network: ws
   port: 16616
   server: t.cnmjcn.cyou
@@ -93,3 +93,26 @@ proxies:
     headers:
       Host: b51d264b1d49f78bcc89624068d93405.mobgslb.tbcache.com
     path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇹🇼TW_2|1.9MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UtL1fZqK9sl2QQaS03BQnfYBAnH760eJ_4YzSR9RniM
+    short-id: '!!str 601a08ef'
+  server: kbgs.hinet.tw1.yydjc.top
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4749475d-3a47-4175-a934-92e247127ed7
+- name: 🇹🇼TW_3|1.6MB/s
+  password: a003db5a-3b24-4f4d-ada8-80bb4e4bf1f6
+  port: 33577
+  server: aws-linktw4.hellomoon.sbs
+  skip-cert-verify: false
+  sni: aws-linktw4.hellomoon.sbs
+  type: anytls
+  udp: true
+  xudp: true

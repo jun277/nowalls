@@ -1,1 +1,41 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇷🇺RU_1|1.6MB/s
+  network: tcp
+  port: '8443'
+  reality-opts:
+    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
+    short-id: '!!str d1579a8745398e34'
+  server: 80.93.187.200
+  servername: findmypackets.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8e66502a-83ca-47d7-a3b5-a65daf457ecf
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇷🇺RU_2|2.1MB/s
+  network: tcp
+  port: '9443'
+  reality-opts:
+    public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
+    short-id: '!!str 2344766a270a6298'
+  server: 217.168.240.204
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
+  xudp: true
