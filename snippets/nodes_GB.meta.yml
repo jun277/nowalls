@@ -27,6 +27,13 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇬🇧 GB 03 TG: @nodpai'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-uk-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-uk-001.fastervpn.world
+  type: hysteria2
 - name: 🇬🇧GB_1|1.2MB/s
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443

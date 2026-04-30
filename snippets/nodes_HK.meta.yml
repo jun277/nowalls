@@ -1,17 +1,18 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: 'B - 🇭🇰 HK 01 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-  security: reality
-  server: 8.218.127.218
-  servername: wcs.adobe.com
+- name: 'B - 🇭🇰 HK 01 TG: @nodpai'
+  network: ws
+  port: 17820
+  security: tls
+  server: s5.db-link.in
+  servername: 48afa0c5c9.shopify.com
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  uuid: 75d4d24d-ba8d-3676-a5c6-edd6ea6dbfb6
+  ws-opts:
+    headers:
+      Host: 48afa0c5c9.shopify.com
+    path: /db102448afa0c5c9fp=chrome
 - name: 'B - 🇭🇰 HK 02 TG: @nodpai'
   obfs: salamander
   obfs-password: YmGRdMZ74sEC91FN
@@ -24,7 +25,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 'B - 🇭🇰 HK 03 TG: @nodpai'
+  name: 'C - 🇭🇰 HK 03 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
@@ -35,20 +36,16 @@ proxies:
   tls: true
   type: vless
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- alterId: 2
-  cipher: auto
-  name: 'C - 🇭🇰 HK 05 TG: @nodpai'
-  port: 30809
-  server: v9.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 64
-  cipher: auto
-  name: 'D - 🇭🇰 HK 06 TG: @nodpai'
-  port: 54022
-  server: 103.181.164.145
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 'D - 🇭🇰 HK 05 TG: @nodpai'
+  network: ws
+  port: 80
+  server: 104.17.150.99
+  type: vless
+  uuid: 5aa7d17e-7dc2-46dd-9acf-c3c97440259b
+  ws-opts:
+    headers:
+      Host: sss.yaml7.ggff.net
+    path: /?ed=2048
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
