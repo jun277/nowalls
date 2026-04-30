@@ -35,18 +35,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: 🇸🇬SG_5|1.4MB/s
-  network: ws
-  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  port: '443'
-  server: cdns.doon.eu.org
-  skip-cert-verify: true
-  sni: vless.lrdxw.club
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
-    path: /?ed=2560

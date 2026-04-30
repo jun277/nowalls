@@ -14,7 +14,7 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  name: 'A - 🇩🇪 DE 02 TG: @nodpai'
+  name: 🇭🇰HK_3|1.5MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 25258
@@ -97,7 +97,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 🇸🇬SG_1|1.4MB/s
+- name: 'A - 🇩🇪 DE 08 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2096
@@ -335,7 +335,7 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  name: 'B - 🇩🇪 DE 27 TG: @nodpai'
+  name: 🇭🇰HK_2|1.5MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 42471

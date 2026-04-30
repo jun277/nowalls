@@ -14,7 +14,7 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  name: 'A - 🇩🇪 DE 02 TG: @nodpai'
+  name: 🇭🇰HK_3|1.5MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 25258
@@ -97,7 +97,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 🇸🇬SG_1|1.4MB/s
+- name: 'A - 🇩🇪 DE 08 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2096
@@ -350,7 +350,7 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  name: 'B - 🇩🇪 DE 27 TG: @nodpai'
+  name: 🇭🇰HK_2|1.5MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 42471
@@ -405,50 +405,57 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 🇩🇪DE_2|1.1MB/s
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 500
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_3|1.3MB/s
-  network: ws
-  port: 443
-  server: 18.245.54.3
-  servername: d24f6c9l7fxvak.cloudfront.net
-  skip-cert-verify: false
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|2.1MB/s
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
+    short-id: '!!str 2344766a270a6298'
+  server: 159.195.82.187
+  servername: yahoo.com
   tls: true
   type: vless
-  uuid: 97b2cd5b-b98d-494f-8f97-3a06e8c1bbd2
-  ws-opts:
-    headers:
-      Host: d24f6c9l7fxvak.cloudfront.net
-    path: /
-- down: ''
-  fingerprint: ''
-  name: 🇩🇪DE_4|2.2MB/s
-  obfs: ''
-  obfs-password: ''
+  udp: true
+  uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
+- name: 🇩🇪DE_2|2.1MB/s
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: '443'
-  server: 18.192.48.56
+  port: 443
+  server: 3.124.12.194
   skip-cert-verify: true
   sni: vpn-de-002.fastervpn.world
+  tfo: false
   type: hysteria2
-  up: ''
+- name: 🇩🇪DE_3|1.2MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 3.70.157.226
+  skip-cert-verify: true
+  sni: vpn-de-002.fastervpn.world
+  tfo: false
+  type: hysteria2
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🇩🇪DE_4|1.1MB/s
+  network: ws
+  port: 8443
+  server: 104.194.156.228
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: xfxl35a.node-edge.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: DE_speednode_0005
