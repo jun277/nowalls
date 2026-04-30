@@ -1,20 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 'A - 🇬🇧 GB 01 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 43.161.238.135
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 'A - 🇬🇧 GB 02 TG: @nodpai'
+  name: 🇯🇵JP_1|3.2MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443

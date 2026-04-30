@@ -6,29 +6,10 @@ proxies:
   server: v6.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'C - 🇯🇵 JP 03 TG: @nodpai'
-  network: tcp
-  port: 52006
-  security: tls
-  server: cl-oth-1.edgeflux.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 75807638-6f19-0190-ae08-38492ee85c88
-- name: 'C - 🇯🇵 JP 04 TG: @nodpai'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-jp-018.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-jp-018.fastervpn.world
-  type: hysteria2
-- name: 'C - 🇯🇵 JP 05 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 02 TG: @nodpai'
   password: f8eca8df-a1a5-4918-a194-d34112a3673f
-  port: 443
-  server: jdataU654714155239871.jcdn.cdnxiaohongshu.com
+  port: 7443
+  server: jc7U654714155239.asia.steamliveonline.com
   tls: true
   type: http
   username: f8eca8df-a1a5-4918-a194-d34112a3673f
@@ -39,14 +20,33 @@ proxies:
     headers: {}
     path:
     - /ABCDE
-  name: 'C - 🇯🇵 JP 07 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 03 TG: @nodpai'
   network: http
   port: 55386
   server: 103.127.243.60
   tls: false
   type: vmess
   uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
-- name: 'C - 🇯🇵 JP 08 TG: @nodpai'
+- name: 'C - 🇯🇵 JP 04 TG: @nodpai'
+  password: f8eca8df-a1a5-4918-a194-d34112a3673f
+  port: 443
+  server: jdataU654714155239871.jcdn.cdnxiaohongshu.com
+  tls: true
+  type: http
+  username: f8eca8df-a1a5-4918-a194-d34112a3673f
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'C - 🇯🇵 JP 05 TG: @nodpai'
+  network: tcp
+  port: 52006
+  security: tls
+  server: cl-oth-1.edgeflux.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 75807638-6f19-0190-ae08-38492ee85c88
+- name: 'C - 🇯🇵 JP 06 TG: @nodpai'
   password: f8eca8df-a1a5-4918-a194-d34112a3673f
   port: 443
   server: jpfileU654714155239.harmonyoscloudcdn.com
@@ -77,15 +77,56 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 🇯🇵JP_1|1.6MB/s
-  password: a003db5a-3b24-4f4d-ada8-80bb4e4bf1f6
+- client-fingerprint: firefox
+  name: 🇯🇵JP_2|1.0MB/s
+  network: ws
   port: 443
-  server: aws-linkjp6.hellomoon.sbs
-  skip-cert-verify: true
-  sni: www.apple.com.cn
-  type: anytls
+  server: cf.008500.xyz
+  servername: vless.lrdxw.club
+  tls: true
+  type: vless
   udp: true
-  xudp: true
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  ws-opts:
+    headers:
+      Host: vless.lrdxw.club
+    path: /?ed=2560
+- client-fingerprint: firefox
+  name: 🇯🇵JP_3|1.1MB/s
+  network: ws
+  port: 443
+  server: sub.danfeng.eu.org
+  servername: vless.lrdxw.club
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  ws-opts:
+    headers:
+      Host: vless.lrdxw.club
+    path: /?ed=2560
+- name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001...
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-018.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-018.fastervpn.world
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 🇯🇵JP_4|2.1MB/s
+  network: ws
+  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  port: '443'
+  server: cf.008500.xyz
+  skip-cert-verify: true
+  sni: vless.lrdxw.club
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    path: /?ed=2560
 - client-fingerprint: random
   name: JP_speednode_0010
   network: ws

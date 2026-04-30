@@ -1,5 +1,12 @@
 proxies:
-- name: 'B - 🇭🇰 HK 01 TG: @nodpai'
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇭🇰 HK 01 TG: @nodpai'
+  port: 60045
+  server: hk0046.lv1.zero1890.com
+  type: vmess
+  uuid: 813fbbe3-4679-4a7f-afd3-c2e5319b5e3b
+- name: 'B - 🇭🇰 HK 02 TG: @nodpai'
   network: ws
   port: 17820
   security: tls
@@ -13,19 +20,22 @@ proxies:
     headers:
       Host: 48afa0c5c9.shopify.com
     path: /db102448afa0c5c9fp=chrome
-- name: 'B - 🇭🇰 HK 02 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YmGRdMZ74sEC91FN
-  password: de8e0342-ea12-4f9d-bc2a-e62409e1913f
-  port: 20003
-  server: zz.66jc.xyz
-  skip-cert-verify: true
-  sni: hkzz.66jc.xyz
-  type: hysteria2
-  udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 'C - 🇭🇰 HK 03 TG: @nodpai'
+  name: 'C - 🇭🇰 HK 04 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+  security: reality
+  server: 8.218.199.24
+  servername: cdn-dynmedia-1.microsoft.com
+  tls: true
+  type: vless
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- client-fingerprint: chrome
+  encryption: none
+  name: 'C - 🇭🇰 HK 05 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
@@ -36,16 +46,6 @@ proxies:
   tls: true
   type: vless
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- name: 'D - 🇭🇰 HK 05 TG: @nodpai'
-  network: ws
-  port: 80
-  server: 104.17.150.99
-  type: vless
-  uuid: 5aa7d17e-7dc2-46dd-9acf-c3c97440259b
-  ws-opts:
-    headers:
-      Host: sss.yaml7.ggff.net
-    path: /?ed=2048
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
@@ -55,6 +55,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 64
+  cipher: auto
+  name: 'D - 🇭🇰 HK 09 TG: @nodpai'
+  port: 54022
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 香港3|@ripaojiedian
   network: tcp
   password: 69ecb45889d99f31b8ccc10bf8f76a72
@@ -81,63 +88,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- down: ''
-  fingerprint: ''
-  name: 🇭🇰HK_1|1.3MB/s
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 813fbbe3-4679-4a7f-afd3-c2e5319b5e3b
-  port: 40000
-  server: hk-aws-15.hi2026.net
-  skip-cert-verify: false
-  sni: ''
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 🇭🇰HK_2|1.4MB/s
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 813fbbe3-4679-4a7f-afd3-c2e5319b5e3b
-  port: 40000
-  server: hk-aws-17.hi2026.net
-  skip-cert-verify: false
-  sni: ''
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 🇭🇰HK_3|2.0MB/s
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 813fbbe3-4679-4a7f-afd3-c2e5319b5e3b
-  port: 40000
-  server: hk-aws-23.hi2026.net
-  skip-cert-verify: false
-  sni: ''
-  type: hysteria2
-  up: ''
-- client-fingerprint: chrome
-  name: 🇭🇰HK_4|2.2MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 43.168.16.112
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇭🇰HK_5|1.4MB/s
-  password: a003db5a-3b24-4f4d-ada8-80bb4e4bf1f6
-  port: 31130
-  server: aws-linkhk2.hellomoon.sbs
-  skip-cert-verify: false
-  sni: aws-linkhk2.hellomoon.sbs
-  type: anytls
-  udp: true
-  xudp: true

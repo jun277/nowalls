@@ -1,4 +1,11 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇭🇰 HK 01 TG: @nodpai'
+  port: 60045
+  server: hk0046.lv1.zero1890.com
+  type: vmess
+  uuid: 813fbbe3-4679-4a7f-afd3-c2e5319b5e3b
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
@@ -8,6 +15,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 64
+  cipher: auto
+  name: 'D - 🇭🇰 HK 09 TG: @nodpai'
+  port: 54022
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 香港3|@ripaojiedian
   network: tcp
   password: 69ecb45889d99f31b8ccc10bf8f76a72
@@ -34,18 +48,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 🇭🇰HK_4|2.2MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 43.168.16.112
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2

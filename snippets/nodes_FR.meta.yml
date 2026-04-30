@@ -1,6 +1,6 @@
 proxies:
 - auth: dongtaiwang.com
-  name: 'B - 🇫🇷 FR 01 TG: @nodpai'
+  name: 'A - 🇫🇷 FR 01 TG: @nodpai'
   password: dongtaiwang.com
   port: 41283
   ports: 40022,41000-42000
@@ -25,12 +25,10 @@ proxies:
   sni: www.microsoft.com
   tfo: false
   type: hysteria2
-- name: 🇫🇷FR_1|3.3MB/s
-  password: dongtaiwang.com
-  port: 41947
-  ports: 41283,41283,40022,41000-42000
-  server: 163.172.113.118
+- name: 'B - 🇫🇷 FR 04 TG: @nodpai'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-fr-002.fastervpn.world
   skip-cert-verify: true
-  sni: www.microsoft.com
-  tfo: false
+  sni: vpn-fr-002.fastervpn.world
   type: hysteria2

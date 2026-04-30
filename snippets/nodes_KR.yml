@@ -1,1 +1,19 @@
-proxies: []
+proxies:
+- disable-sni: true
+  name: 🇰🇷 韩国-3A2154BF|1.2MB/s
+  network: tcp
+  password: dc17386d-4383-49f8-b11c-d9ea04ca2f7f
+  port: 28808
+  server: svip-hg.xiaobaivpn.icu
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+- disable-sni: true
+  name: 🇰🇷 韩国-780A125B|1.2MB/s
+  network: tcp
+  password: dc17386d-4383-49f8-b11c-d9ea04ca2f7f
+  port: 28809
+  server: svip-hg.xiaobaivpn.icu
+  skip-cert-verify: true
+  sni: ''
+  type: trojan

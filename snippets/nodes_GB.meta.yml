@@ -1,20 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 'A - 🇬🇧 GB 01 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 43.161.238.135
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 'A - 🇬🇧 GB 02 TG: @nodpai'
+  name: 🇯🇵JP_1|3.2MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -27,21 +13,41 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇬🇧 GB 03 TG: @nodpai'
+- name: 'B - 🇬🇧 GB 02 TG: @nodpai'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: vpn-uk-001.fastervpn.world
   skip-cert-verify: true
   sni: vpn-uk-001.fastervpn.world
   type: hysteria2
-- name: 🇬🇧GB_1|1.2MB/s
+- name: 'B - 🇬🇧 GB 03 TG: @nodpai'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: vpn-uk-002.fastervpn.world
   skip-cert-verify: true
   sni: vpn-uk-002.fastervpn.world
-  tfo: false
   type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇬🇧GB_1|1.2MB/s
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: uaEkEXSQRlY5bI3NzvoYWtkjQ0Xd_Qhpgl3Pgf4pIFM
+    short-id: '!!str 3b0498c3'
+  server: 87.120.219.56
+  servername: amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d007de67-c0e9-5ab8-b706-5c94069655aa
+  xhttp-opts:
+    headers:
+      Host: amazon.com
+    mode: auto
+    path: /zQLurjYmCcfzs6k4e7Sz
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: GB_speednode_0008

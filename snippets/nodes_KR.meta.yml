@@ -1,57 +1,110 @@
 proxies:
-- alpn:
-  - 'http/1.1
-
-    '
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇰🇷KR_1|1.0MB/s
+- client-fingerprint: chrome
+  name: 🇰🇷KR_2|2.7MB/s
   network: ws
-  port: '10911'
-  server: 221.165.219.121
-  servername: ltaeqp.cdn-assets.fgfw.indevs.in
+  port: 443
+  server: 152.67.208.8
+  servername: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   ws-opts:
     headers:
-      Host: ltaeqp.cdn-assets.fgfw.indevs.in
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /danfeng?ed=2560
-  xudp: true
+      Host: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
+    path: /
 - client-fingerprint: chrome
-  name: 🇰🇷KR_2|1.3MB/s
+  name: 🇰🇷KR_3|1.1MB/s
   network: ws
-  port: '10912'
-  server: 183.103.4.162
+  port: 30303
+  server: 121.191.33.84
+  servername: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
+    path: /
+- disable-sni: true
+  name: 🇰🇷 韩国-3A2154BF|1.2MB/s
+  network: tcp
+  password: dc17386d-4383-49f8-b11c-d9ea04ca2f7f
+  port: 28808
+  server: svip-hg.xiaobaivpn.icu
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+- disable-sni: true
+  name: 🇰🇷 韩国-780A125B|1.2MB/s
+  network: tcp
+  password: dc17386d-4383-49f8-b11c-d9ea04ca2f7f
+  port: 28809
+  server: svip-hg.xiaobaivpn.icu
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🇰🇷KR_4|1.1MB/s
+  network: ws
+  port: 10101
+  server: 121.176.214.32
   servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
   udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: xfxl35a.node-edge.gfw.hidns.co
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    max-early-data: 2560
     path: /danfeng
-  xudp: true
 - client-fingerprint: chrome
-  name: 🇰🇷KR_3|1.5MB/s
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🇰🇷KR_5|1.2MB/s
   network: ws
-  port: '20201'
-  server: 221.145.251.131
+  port: 18852
+  server: 14.55.57.154
   servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
   udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: xfxl35a.node-edge.gfw.hidns.co
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
-        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+    max-early-data: 2560
     path: /danfeng
-  xudp: true
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🇰🇷KR_6|1.4MB/s
+  network: ws
+  port: 11434
+  server: 211.229.31.159
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: xfxl35a.node-edge.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng
