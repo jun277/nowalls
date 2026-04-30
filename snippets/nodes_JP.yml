@@ -1,26 +1,22 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'A - 🇯🇵 JP 02 TG: @nodpai'
-  network: ws
-  port: 16617
-  server: planb.mojcn.com
+  client-fingerprint: chrome
+  name: 'A - 🇯🇵 JP 03 TG: @nodpai'
+  port: 29025
+  server: 103.100.158.18
   type: vmess
-  uuid: c3bb4d48-63db-439e-bb4b-a541729c4f72
-  ws-opts:
-    headers:
-      Host: b51d264b1d49f78bcc89624068d93405.mobgslb.tbcache.com
-    path: /
+  uuid: c45ab62e-5d25-486a-f91e-807fe4b9c23f
 - alterId: 2
   cipher: auto
-  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 09 TG: @nodpai'
   port: 30806
   server: v6.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 'C - 🇯🇵 JP 20 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 21 TG: @nodpai'
   network: ws
   port: 16617
   server: m.cnmjin.net
@@ -37,26 +33,14 @@ proxies:
     headers: {}
     path:
     - /ABCDE
-  name: 'C - 🇯🇵 JP 21 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 22 TG: @nodpai'
   network: http
   port: 55386
   server: 103.127.243.60
   tls: false
   type: vmess
   uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
-- alterId: 0
-  cipher: auto
-  name: 'D - 🇯🇵 JP 30 TG: @nodpai'
-  network: ws
-  port: 16617
-  server: t.cnmjcn.cyou
-  type: vmess
-  uuid: c3bb4d48-63db-439e-bb4b-a541729c4f72
-  ws-opts:
-    headers:
-      Host: b51d264b1d49f78bcc89624068d93405.mobgslb.tbcache.com
-    path: /
-- name: 'D - 🇯🇵 JP 31 TG: @nodpai'
+- name: 'D - 🇯🇵 JP 28 TG: @nodpai'
   network: ws
   password: '!!str 162534'
   port: 8443
@@ -73,15 +57,15 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 16919
-  server: 18.183.180.142
+  server: 18.183.75.181
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
   password: 69ecb45889d99f31b8ccc10bf8f76a72
-  port: 4380
-  server: 18.162.50.11
+  port: 2008
+  server: 13.230.197.150
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
