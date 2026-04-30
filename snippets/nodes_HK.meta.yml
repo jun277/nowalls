@@ -1,75 +1,18 @@
 proxies:
 - client-fingerprint: chrome
   encryption: none
-  http-opts:
-    headers:
-      Host:
-      - app.usercentrics.eu
-    path:
-    - /
-  name: 'A - 🇭🇰 HK 01 TG: @nodpai'
+  name: 'B - 🇭🇰 HK 01 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
     public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-    short-id: '!!str '
-  server: 8.218.118.237
-  servername: app.usercentrics.eu
+  security: reality
+  server: 8.218.127.218
+  servername: wcs.adobe.com
   tls: true
   type: vless
-  udp: true
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 02 TG: @nodpai'
-  network: ws
-  port: 16622
-  server: planb.mojcn.com
-  type: vmess
-  uuid: c3bb4d48-63db-439e-bb4b-a541729c4f72
-  ws-opts:
-    headers:
-      Host: b51d264b1d49f78bcc89624068d93405.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 05 TG: @nodpai'
-  network: ws
-  port: 16622
-  server: m.cnmjin.net
-  type: vmess
-  uuid: c3bb4d48-63db-439e-bb4b-a541729c4f72
-  ws-opts:
-    headers:
-      Host: b51d264b1d49f78bcc89624068d93405.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 06 TG: @nodpai'
-  network: ws
-  port: 16632
-  server: planb.mojcn.com
-  type: vmess
-  uuid: c3bb4d48-63db-439e-bb4b-a541729c4f72
-  ws-opts:
-    headers:
-      Host: b51d264b1d49f78bcc89624068d93405.mobgslb.tbcache.com
-    path: /
-- client-fingerprint: chrome
-  name: 'B - 🇭🇰 HK 07 TG: @nodpai'
-  port: 443
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-    short-id: '!!str '
-  server: 8.217.48.65
-  servername: cdn.userway.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- name: 'B - 🇭🇰 HK 08 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 02 TG: @nodpai'
   obfs: salamander
   obfs-password: YmGRdMZ74sEC91FN
   password: de8e0342-ea12-4f9d-bc2a-e62409e1913f
@@ -79,144 +22,33 @@ proxies:
   sni: hkzz.66jc.xyz
   type: hysteria2
   udp: true
-- name: 'B - 🇭🇰 HK 09 TG: @nodpai'
-  network: ws
-  port: 17820
-  security: tls
-  server: s5.db-link.in
-  servername: 48afa0c5c9.shopify.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 75d4d24d-ba8d-3676-a5c6-edd6ea6dbfb6
-  ws-opts:
-    headers:
-      Host: 48afa0c5c9.shopify.com
-    path: /db102448afa0c5c9fp=chrome
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇭🇰 HK 10 TG: @nodpai'
+  name: 'B - 🇭🇰 HK 03 TG: @nodpai'
   network: tcp
-  port: 8080
+  port: 443
   reality-opts:
-    public-key: bXstTdAgEyOn8LEMM_K2gIOw7T2iKhr6l-lXcrF4PlM
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
   security: reality
-  server: hk.chinablog.xyz
-  servername: www.liblib.art
+  server: 8.218.127.248
+  servername: j.6sc.co
   tls: true
   type: vless
-  uuid: 360f1d71-f8dd-4c71-aa4f-347486312dca
-- alterId: 0
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- alterId: 2
   cipher: auto
-  name: 'C - 🇭🇰 HK 11 TG: @nodpai'
-  network: ws
-  port: 16632
-  server: m.cnmjin.net
+  name: 'C - 🇭🇰 HK 05 TG: @nodpai'
+  port: 30809
+  server: v9.hdacd.com
   type: vmess
-  uuid: c3bb4d48-63db-439e-bb4b-a541729c4f72
-  ws-opts:
-    headers:
-      Host: b51d264b1d49f78bcc89624068d93405.mobgslb.tbcache.com
-    path: /
-- name: 'C - 🇭🇰 HK 12 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 194.87.91.192
-  servername: shdows.feifanlib.fun
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: e883ddd8-4011-4fac-9971-1ac3671475b8
-  ws-opts:
-    headers:
-      Host: shdows.feifanlib.fun
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 'C - 🇭🇰 HK 13 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 93.180.132.165
-  servername: shdows.feifanlib.fun
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: e883ddd8-4011-4fac-9971-1ac3671475b8
-  ws-opts:
-    headers:
-      Host: shdows.feifanlib.fun
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 'C - 🇭🇰 HK 14 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 212.64.199.152
-  servername: shdows.feifanlib.fun
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: e883ddd8-4011-4fac-9971-1ac3671475b8
-  ws-opts:
-    headers:
-      Host: shdows.feifanlib.fun
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇭🇰 HK 16 TG: @nodpai'
-  network: ws
-  port: 16622
-  server: t.cnmjcn.cyou
-  type: vmess
-  uuid: c3bb4d48-63db-439e-bb4b-a541729c4f72
-  ws-opts:
-    headers:
-      Host: b51d264b1d49f78bcc89624068d93405.mobgslb.tbcache.com
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: 'C - 🇭🇰 HK 17 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 188.114.98.0
-  servername: dabaius2.sylu.net
-  tls: true
-  type: vless
-  uuid: 3f9c8463-8610-3ed8-86c8-a26713067825
-  ws-opts:
-    headers:
-      Host: dabaius2.sylu.net
-    path: /db10240eb751d6ab
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 64
   cipher: auto
-  name: 'D - 🇭🇰 HK 18 TG: @nodpai'
+  name: 'D - 🇭🇰 HK 06 TG: @nodpai'
   port: 54022
   server: 103.181.164.145
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 'D - 🇭🇰 HK 19 TG: @nodpai'
-  network: ws
-  port: 80
-  server: 104.17.150.99
-  type: vless
-  uuid: 5aa7d17e-7dc2-46dd-9acf-c3c97440259b
-  ws-opts:
-    headers:
-      Host: sss.yaml7.ggff.net
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 'D - 🇭🇰 HK 20 TG: @nodpai'
-  network: ws
-  port: 16632
-  server: t.cnmjcn.cyou
-  type: vmess
-  uuid: c3bb4d48-63db-439e-bb4b-a541729c4f72
-  ws-opts:
-    headers:
-      Host: b51d264b1d49f78bcc89624068d93405.mobgslb.tbcache.com
-    path: /
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
