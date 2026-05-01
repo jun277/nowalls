@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: firefox
   encryption: none
-  name: 'B - 🇭🇰 HK 04 TG: @nodpai'
+  name: 'A - 🇭🇰 HK 01 TG: @nodpai'
   network: ws
   port: 443
   security: tls
@@ -9,14 +9,14 @@ proxies:
   servername: hk666.6807251.xyz
   tls: true
   type: vless
-  uuid: 8458f187-887d-4c57-bd59-4a75e5ccba9a
+  uuid: b5fb6b8c-f6f8-458d-ad75-fd36f5527474
   ws-opts:
     headers:
       Host: hk666.6807251.xyz
     path: /
 - client-fingerprint: chrome
   encryption: none
-  name: 'C - 🇭🇰 HK 10 TG: @nodpai'
+  name: 'C - 🇭🇰 HK 09 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
@@ -27,57 +27,6 @@ proxies:
   tls: true
   type: vless
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- alterId: 2
-  cipher: auto
-  name: 'C - 🇭🇰 HK 11 TG: @nodpai'
-  port: 30809
-  server: v9.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  encryption: none
-  name: 'C - 🇭🇰 HK 12 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-  security: reality
-  server: 8.217.75.84
-  servername: sgtm.jetbrains.com
-  tls: true
-  type: vless
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- encryption: none
-  name: 'C - 🇭🇰 HK 16 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 104.17.150.99
-  servername: sss.yaml7.ggff.net
-  tls: true
-  type: vless
-  uuid: 5aa7d17e-7dc2-46dd-9acf-c3c97440259b
-  ws-opts:
-    headers:
-      Host: sss.yaml7.ggff.net
-    path: /?ed=2048
-- alterId: 64
-  cipher: auto
-  name: 'D - 🇭🇰 HK 17 TG: @nodpai'
-  port: 54022
-  server: 103.181.164.145
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 'D - 🇭🇰 HK 18 TG: @nodpai'
-  network: ws
-  port: 80
-  server: 104.17.150.99
-  type: vless
-  uuid: 5aa7d17e-7dc2-46dd-9acf-c3c97440259b
-  ws-opts:
-    headers:
-      Host: sss.yaml7.ggff.net
-    path: /?ed=2048
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
@@ -113,29 +62,20 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰HK_1|1.9MB/s
+- client-fingerprint: chrome
+  name: 🇭🇰HK_2|1.2MB/s
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 15124
-  server: 149.104.25.35
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
+  port: 52731
+  server: 149.104.25.115
+  servername: sni.111000.dns.army
   tls: true
-  type: trojan
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇭🇰HK_2|1.3MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 43.161.221.27
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+      Host: sni.111000.dns.army
+      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
+        Chrome/v1.0.0 Safari/538.1
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+  xudp: true
