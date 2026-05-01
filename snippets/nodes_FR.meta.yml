@@ -1,11 +1,14 @@
 proxies:
-- name: 'B - 🇫🇷 FR 01 TG: @nodpai'
+- auth: dongtaiwang.com
+  name: 'A - 🇫🇷 FR 01 TG: @nodpai'
   password: dongtaiwang.com
-  port: 40022
+  port: 41283
+  ports: 40022,41000-42000
   server: 163.172.113.118
   skip-cert-verify: true
   sni: www.microsoft.com
   type: hysteria2
+  udp: true
 - name: 🇫🇷FR_1|1.8MB/s
   password: dongtaiwang.com
   port: 41273
