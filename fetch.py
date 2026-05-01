@@ -1307,9 +1307,12 @@ def main():
                     if ctgs and keys[-1] == 'OVERALL':
                         break
                 if len(ctgs) == 1:
-                    if node.supports_clash():
-                        ctg_nodes[ctgs[0]].append(node.clash_data)
-                    ctg_nodes_meta[ctgs[0]].append(node.clash_data)
+                    try:
+                        if node.supports_clash():
+                            ctg_nodes[ctgs[0]].append(node.clash_data)
+                        ctg_nodes_meta[ctgs[0]].append(node.clash_data)
+                    except Exception:
+                        traceback.print_exc()
         for ctg, proxies in ctg_nodes.items():
             with open("snippets/nodes_"+ctg+".yml", 'w', encoding="utf-8") as f:
                 yaml.dump({'proxies': proxies}, f, allow_unicode=True)
