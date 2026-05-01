@@ -172,7 +172,7 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 'B - 🇺🇸 US 31 TG: @nodpai'
+- name: 'B - 🇺🇸 US 32 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 19655
@@ -280,7 +280,14 @@ proxies:
     headers:
       Host: cg1c16.waimaojd.com
     path: /api/v1/graphql
-- name: 'C - 🇺🇸 US 57 TG: @nodpai'
+- alterId: 2
+  cipher: auto
+  name: 'C - 🇺🇸 US 57 TG: @nodpai'
+  port: 30824
+  server: v24.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 'C - 🇺🇸 US 58 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -295,7 +302,7 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - alterId: 2
   cipher: auto
-  name: 'C - 🇺🇸 US 58 TG: @nodpai'
+  name: 'C - 🇺🇸 US 59 TG: @nodpai'
   port: 30808
   server: v8.hdacd.com
   type: vmess

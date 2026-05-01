@@ -625,14 +625,14 @@ proxies:
   tls: true
   type: http
   username: 16955d72-1794-11f0-a035-f23c95b6f51d
-- name: 'B - 🇺🇸 US 21 TG: @nodpai'
+- name: 'B - 🇺🇸 US 22 TG: @nodpai'
   password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
   port: 5443
   server: 09775d44-tea5c0-tee5aa-1glq.fmtdc1.sghuawei.com
   tls: true
   type: http
   username: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-- name: 'B - 🇺🇸 US 23 TG: @nodpai'
+- name: 'B - 🇺🇸 US 24 TG: @nodpai'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: vpn-us-005.fastervpn.world
@@ -640,7 +640,7 @@ proxies:
   sni: vpn-us-005.fastervpn.world
   type: hysteria2
 - encryption: mlkem768x25519plus.native.0rtt.pMicEQf0Fhp2n7gsB_3TIEck4cYYP2cAsmENf2Ib2yA
-  name: 'B - 🇺🇸 US 24 TG: @nodpai'
+  name: 'B - 🇺🇸 US 25 TG: @nodpai'
   network: ws
   port: 443
   security: tls
@@ -654,7 +654,7 @@ proxies:
       Host: asb1.nekohub.xyz
     path: /vless_ws?ed=4096
 - encryption: mlkem768x25519plus.native.0rtt.PMyLkb9Ir6pKLU2geJqWFvoR7wnBDZX40L4to9InlxA
-  name: 'B - 🇺🇸 US 25 TG: @nodpai'
+  name: 'B - 🇺🇸 US 26 TG: @nodpai'
   network: ws
   port: 443
   security: tls
@@ -667,7 +667,7 @@ proxies:
     headers:
       Host: asb2.nekohub.xyz
     path: /vless_ws?ed=4096
-- name: 'B - 🇺🇸 US 26 TG: @nodpai'
+- name: 'B - 🇺🇸 US 27 TG: @nodpai'
   password: 6286105c-fb6d-11ef-be96-f23c93136cb3
   port: 5443
   server: 3a34a055-te8ao0-telzv3-4550.fmtdc1.sghuawei.com
@@ -675,14 +675,14 @@ proxies:
   tls: true
   type: http
   username: 6286105c-fb6d-11ef-be96-f23c93136cb3
-- name: 'B - 🇺🇸 US 27 TG: @nodpai'
+- name: 'B - 🇺🇸 US 28 TG: @nodpai'
   password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
   port: 8443
   server: 16c9abd7-te9j40-tir0zk-1hpo0.isp.cdnkuaishou.com
   tls: true
   type: http
   username: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
-- name: 'B - 🇺🇸 US 28 TG: @nodpai'
+- name: 'B - 🇺🇸 US 29 TG: @nodpai'
   password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
   port: 443
   server: caacdf4e-te5ts0-tir0zk-1hpo0.se.oshuawei.com
@@ -690,7 +690,7 @@ proxies:
   tls: true
   type: http
   username: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
-- name: 'B - 🇺🇸 US 29 TG: @nodpai'
+- name: 'B - 🇺🇸 US 30 TG: @nodpai'
   password: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
   port: 443
   server: 7bad616e-te9j40-tfzwoc-1ryup.sj.hyhuawei.com
@@ -699,7 +699,7 @@ proxies:
   type: http
   username: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
 - encryption: none
-  name: 'B - 🇺🇸 US 30 TG: @nodpai'
+  name: 'B - 🇺🇸 US 31 TG: @nodpai'
   network: ws
   port: 443
   security: tls
@@ -712,7 +712,7 @@ proxies:
     headers:
       Host: jjk.xxbsyx.com
     path: /
-- name: 'B - 🇺🇸 US 31 TG: @nodpai'
+- name: 'B - 🇺🇸 US 32 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 19655
@@ -725,14 +725,14 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇺🇸 US 32 TG: @nodpai'
+- name: 'B - 🇺🇸 US 33 TG: @nodpai'
   password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
   port: 8443
   server: d35d0d62-te9j40-tfmrui-duku.isp.cdnkuaishou.com
   tls: true
   type: http
   username: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-- name: 'B - 🇺🇸 US 33 TG: @nodpai'
+- name: 'B - 🇺🇸 US 34 TG: @nodpai'
   password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
   port: 8443
   server: b45e9721-te9j40-tfpmu9-1m0fq.isp.cdnkuaishou.com
@@ -740,18 +740,11 @@ proxies:
   tls: true
   type: http
   username: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
-- name: 'B - 🇺🇸 US 34 TG: @nodpai'
+- name: 'B - 🇺🇸 US 35 TG: @nodpai'
   password: 1b609740-eec2-11ef-8543-f23c93136cb3
   port: 5443
   server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
   sni: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
-  tls: true
-  type: http
-  username: 1b609740-eec2-11ef-8543-f23c93136cb3
-- name: 'B - 🇺🇸 US 35 TG: @nodpai'
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 443
-  server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
   tls: true
   type: http
   username: 1b609740-eec2-11ef-8543-f23c93136cb3
@@ -954,7 +947,14 @@ proxies:
     headers:
       Host: cg1c16.waimaojd.com
     path: /api/v1/graphql
-- name: 'C - 🇺🇸 US 57 TG: @nodpai'
+- alterId: 2
+  cipher: auto
+  name: 'C - 🇺🇸 US 57 TG: @nodpai'
+  port: 30824
+  server: v24.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 'C - 🇺🇸 US 58 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -969,25 +969,11 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - alterId: 2
   cipher: auto
-  name: 'C - 🇺🇸 US 58 TG: @nodpai'
+  name: 'C - 🇺🇸 US 59 TG: @nodpai'
   port: 30808
   server: v8.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- encryption: mlkem768x25519plus.native.0rtt.5lqi5OPPFgH6bNbAWpak_P8fShvvj16kA9ki_F_wXiA
-  name: 'C - 🇺🇸 US 59 TG: @nodpai'
-  network: ws
-  port: 8443
-  security: tls
-  server: cf.3666888.xyz
-  servername: us002-cdn.nekohub.xyz
-  tls: true
-  type: vless
-  uuid: a8d37bf8-ff5b-4de8-8796-2de9c4072b41
-  ws-opts:
-    headers:
-      Host: us002.nekohub.xyz
-    path: /vless_ws?ed=4096
 - encryption: none
   flow: xtls-rprx-vision
   name: 'C - 🇺🇸 US 60 TG: @nodpai'
