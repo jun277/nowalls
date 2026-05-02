@@ -48,35 +48,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰HK_1|1.3MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 15124
-  server: 149.104.25.35
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇭🇰HK_3|1.6MB/s
-  network: ws
-  port: '443'
-  server: cf.scpnb.top
-  servername: segment-self-united-variation.trycloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 740a0b1e-f894-4ce7-99ed-372d7961937c
-  ws-opts:
-    headers:
-      Host: segment-self-united-variation.trycloudflare.com
-    path: /740a0b1e-f894-4ce7-99ed-372d7961937c-vm
-  xudp: true

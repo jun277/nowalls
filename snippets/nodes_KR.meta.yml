@@ -1,46 +1,45 @@
 proxies:
 - client-fingerprint: chrome
-  name: 🇰🇷KR_1|2.0MB/s
+  metadata:
+    cleanName: 韩国5
+    flag: 🇰🇷
+    multiplier: 1
+    originalName: 韩国5
+    region: 韩国
+    tags: []
+  name: 🇰🇷KR_1|1.2MB/s
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: '20332'
-  server: 125.136.32.130
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇰🇷KR_2|1.1MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 19655
-  server: 211.48.77.114
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 🇰🇷KR_3|1.4MB/s
-  network: ws
-  port: '21747'
-  server: 121.159.78.104
-  servername: xfxl35a.node-edge.gfw.hidns.co
+  port: 10227
+  server: 59.6.239.208
+  servername: nn9jdg-k7yewrrk.acg.xx.kg
+  tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /danfeng
-  xudp: true
+      Host: nn9jdg-k7yewrrk.acg.xx.kg
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 韩国2
+    flag: 🇰🇷
+    multiplier: 1
+    originalName: 韩国2
+    region: 韩国
+    tags: []
+  name: 🇰🇷KR_2|1.0MB/s
+  network: ws
+  port: 18383
+  server: 59.6.239.208
+  servername: nn9jdg-k7yewrrk.acg.xx.kg
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: nn9jdg-k7yewrrk.acg.xx.kg
+    path: /@Marisa_kristi
