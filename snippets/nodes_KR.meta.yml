@@ -1,45 +1,16 @@
 proxies:
-- client-fingerprint: chrome
-  metadata:
-    cleanName: 韩国5
-    flag: 🇰🇷
-    multiplier: 1
-    originalName: 韩国5
-    region: 韩国
-    tags: []
-  name: 🇰🇷KR_1|1.2MB/s
+- name: 🇰🇷KR_1|1.1MB/s
   network: ws
-  port: 10227
-  server: 59.6.239.208
-  servername: nn9jdg-k7yewrrk.acg.xx.kg
-  tfo: false
+  port: 10101
+  server: 59.0.95.106
+  servername: sni.111000.dns.army
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: nn9jdg-k7yewrrk.acg.xx.kg
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  metadata:
-    cleanName: 韩国2
-    flag: 🇰🇷
-    multiplier: 1
-    originalName: 韩国2
-    region: 韩国
-    tags: []
-  name: 🇰🇷KR_2|1.0MB/s
-  network: ws
-  port: 18383
-  server: 59.6.239.208
-  servername: nn9jdg-k7yewrrk.acg.xx.kg
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: nn9jdg-k7yewrrk.acg.xx.kg
-    path: /@Marisa_kristi
+      Host: sni.111000.dns.army
+    path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+  xudp: true

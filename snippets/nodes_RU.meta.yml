@@ -1,10 +1,11 @@
 proxies:
-- flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|1.2MB/s
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|1.6MB/s
   network: tcp
   port: 52006
-  server: 178.72.182.15
-  servername: cl-ru-1.edgeflux.ru
+  server: 178.72.182.35
+  servername: cl-ru-2.edgeflux.ru
   skip-cert-verify: true
   tls: true
   type: vless
