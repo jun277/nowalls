@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 'B - 🇸🇬 SG 04 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 06 TG: @nodpai'
   port: 30845
   server: v45.hdacd.com
   type: vmess
