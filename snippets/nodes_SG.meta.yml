@@ -2,89 +2,236 @@ proxies:
 - name: 'A - 🇸🇬 SG 01 TG: @nodpai'
   network: ws
   port: 443
-  security: tls
   server: 45.142.126.91
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
       Host: xfxl35a.node-edge.gfw.hidns.co
     path: /danfeng
+  xudp: true
 - name: 'A - 🇸🇬 SG 02 TG: @nodpai'
   network: ws
-  port: 20000
-  security: tls
-  server: 121.158.68.235
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  tls: true
+  port: 8880
+  server: 167.68.11.30
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfengfp=chrome
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  host: b.8.q.1.z.7.c.5.y.k.2.v.x.0.a.m.6.n.d.h.3.h.u.9.danfeng.rr.kg
-  insecure: '0'
+      Host: vms.lifetime28.workers.dev
+    path: /
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
   name: 'A - 🇸🇬 SG 03 TG: @nodpai'
   network: ws
-  path: /danfeng?ed=2560
-  port: 44073
-  security: tls
-  server: 38.165.23.165
-  servername: b.8.q.1.z.7.c.5.y.k.2.v.x.0.a.m.6.n.d.h.3.h.u.9.danfeng.rr.kg
+  port: 10001
+  server: 121.179.212.16
+  servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
-  sni: b.8.q.1.z.7.c.5.y.k.2.v.x.0.a.m.6.n.d.h.3.h.u.9.danfeng.rr.kg
+  tfo: false
   tls: true
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: b.8.q.1.z.7.c.5.y.k.2.v.x.0.a.m.6.n.d.h.3.h.u.9.danfeng.rr.kg
-    path: /danfeng?ed=2560
-- name: 'A - 🇸🇬 SG 04 TG: @nodpai'
-  network: ws
-  port: 23791
-  security: tls
-  server: 183.105.104.149
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfengfp=chrome
-- client-fingerprint: chrome
-  encryption: none
-  name: 'B - 🇸🇬 SG 05 TG: @nodpai'
-  network: ws
-  port: 27017
-  security: tls
-  server: 121.151.210.54
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  skip-cert-verify: true
-  tls: true
-  type: vless
+  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
       Host: xfxl35a.node-edge.gfw.hidns.co
     path: /danfeng?ed=2560
 - client-fingerprint: chrome
-  encryption: none
-  name: 'B - 🇸🇬 SG 06 TG: @nodpai'
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 'A - 🇸🇬 SG 04 TG: @nodpai'
+  network: ws
+  port: 13722
+  server: 175.201.34.127
+  servername: ynwta9.api-edge.fgfw.qzz.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: ynwta9.api-edge.fgfw.qzz.io
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 'A - 🇸🇬 SG 05 TG: @nodpai'
+  network: ws
+  port: 11211
+  server: 59.2.229.69
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xfxl35a.node-edge.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 'A - 🇸🇬 SG 06 TG: @nodpai'
   network: ws
   port: 8443
+  server: 42.98.174.58
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xfxl35a.node-edge.gfw.hidns.co
+    path: /danfeng?ed=2560
+- name: 'A - 🇸🇬 SG 07 TG: @nodpai'
+  network: ws
+  port: 20332
+  server: 115.23.103.153
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xfxl35a.node-edge.gfw.hidns.co
+    path: /danfengfp
+  xudp: true
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 'A - 🇸🇬 SG 08 TG: @nodpai'
+  network: ws
+  port: 443
+  server: 129.146.138.164
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xfxl35a.node-edge.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 'B - 🇸🇬 SG 09 TG: @nodpai'
+  network: ws
+  port: 15000
+  server: 59.12.108.79
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: xfxl35a.node-edge.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 'B - 🇸🇬 SG 10 TG: @nodpai'
+  network: ws
+  port: 83
+  server: 208.167.245.37
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xfxl35a.node-edge.gfw.hidns.co
+    path: /danfeng?ed=2560
+- name: 'B - 🇸🇬 SG 11 TG: @nodpai'
+  network: ws
+  port: 443
+  server: 38.207.188.139
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xfxl35a.node-edge.gfw.hidns.co
+    path: /danfengfp
+  xudp: true
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 'B - 🇸🇬 SG 12 TG: @nodpai'
+  network: ws
+  port: 443
+  server: 45.202.113.115
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xfxl35a.node-edge.gfw.hidns.co
+    path: /danfeng?ed=2560
+- name: 'B - 🇸🇬 SG 13 TG: @nodpai'
+  network: ws
+  port: 10001
+  server: 218.155.125.99
+  servername: ynwta9.api-edge.fgfw.qzz.io
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: ynwta9.api-edge.fgfw.qzz.io
+    path: /danfengfp=chrome
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 'B - 🇸🇬 SG 14 TG: @nodpai'
+  network: ws
+  port: 443
   security: tls
-  server: 104.18.39.57
+  server: 162.159.33.240
   servername: kalami-eew.pages.dev
   tls: true
   type: vless
@@ -93,82 +240,17 @@ proxies:
     headers:
       Host: kalami-eew.pages.dev
     path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: 'B - 🇸🇬 SG 07 TG: @nodpai'
+- encryption: none
+  name: 'B - 🇸🇬 SG 15 TG: @nodpai'
   network: ws
-  port: 443
-  security: tls
-  server: 47.251.88.90
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  tls: true
+  port: 80
+  server: 104.17.72.206
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 1de37726-744b-46e1-9101-c926b3402e82
   ws-opts:
     headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfeng?ed=2560
-- name: 'B - 🇸🇬 SG 08 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 149.248.36.162
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfengfp=chrome
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  encryption: none
-  flow: ''
-  name: 'B - 🇸🇬 SG 09 TG: @nodpai'
-  network: ws
-  port: 10909
-  server: 211.230.85.30
-  servername: yvl5fy.data-cache.chinam.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: yvl5fy.data-cache.chinam.indevs.in
-    path: /danfeng?ed=2560
-- name: 'B - 🇸🇬 SG 10 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 45.202.243.127
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfengfp=chrome
-- name: 'B - 🇸🇬 SG 11 TG: @nodpai'
-  network: ws
-  port: 32130
-  security: tls
-  server: 14.39.193.90
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfeng
-- client-fingerprint: chrome
-  encryption: none
-  name: 'B - 🇸🇬 SG 12 TG: @nodpai'
+      Host: v2.v2configlab.workers.dev
+- name: 'B - 🇸🇬 SG 16 TG: @nodpai'
   network: ws
   port: 2053
   security: tls
@@ -180,78 +262,37 @@ proxies:
   ws-opts:
     headers:
       Host: yniz.img-cache.fgfw.indevs.in
-    path: /danfeng?ed=2560
-- name: 'B - 🇸🇬 SG 13 TG: @nodpai'
-  network: ws
-  port: 39738
-  security: tls
-  server: 38.244.5.205
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
     path: /danfeng?ed=2560fp=chrome
 - client-fingerprint: chrome
-  encryption: none
-  name: 'B - 🇸🇬 SG 14 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 17 TG: @nodpai'
   network: ws
   port: 443
-  security: tls
-  server: 146.70.30.54
+  server: 65.75.220.114
   servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
       Host: xfxl35a.node-edge.gfw.hidns.co
     path: /danfeng
-- name: 'B - 🇸🇬 SG 15 TG: @nodpai'
-  network: ws
-  port: 443
-  server: 160.30.4.143
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfengsecurity=tls
-- name: 'B - 🇸🇬 SG 16 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 23.141.52.169
-  servername: ynwta9.api-edge.fgfw.qzz.io
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-    path: /danfeng?ed=2560fp=chrome
-- name: 'B - 🇸🇬 SG 17 TG: @nodpai'
-  network: ws
-  port: 8443
-  server: 77.238.252.50
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfengsecurity=tls
+  xudp: true
 - client-fingerprint: chrome
-  encryption: none
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
   name: 'B - 🇸🇬 SG 18 TG: @nodpai'
   network: ws
   port: 443
-  security: tls
-  server: 68.183.231.228
+  server: 172.104.250.194
   servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
@@ -260,149 +301,155 @@ proxies:
 - name: 'B - 🇸🇬 SG 19 TG: @nodpai'
   network: ws
   port: 443
-  security: tls
-  server: 45.131.185.234
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  tls: true
+  server: 151.242.165.13
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
       Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfeng?ed=2560fp=chrome
+    path: /danfengsecurity=tls
 - name: 'B - 🇸🇬 SG 20 TG: @nodpai'
   network: ws
-  port: 443
-  server: 91.84.98.166
+  port: 8443
+  server: 192.121.23.85
+  servername: ynwta9.api-edge.fgfw.qzz.io
+  skip-cert-verify: false
+  tls: true
   type: vless
+  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfengsecurity=tls
-- name: 'B - 🇸🇬 SG 21 TG: @nodpai'
+      Host: ynwta9.api-edge.fgfw.qzz.io
+    path: /danfeng
+  xudp: true
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 'B - 🇸🇬 SG 21 TG: @nodpai'
   network: ws
   port: 443
-  server: 164.90.226.9
+  server: 142.171.230.71
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
   type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: xfxl35a.node-edge.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 'B - 🇸🇬 SG 22 TG: @nodpai'
+  network: ws
+  port: 443
+  server: 188.166.42.149
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
       Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfengsecurity=tls
-- name: 'B - 🇸🇬 SG 22 TG: @nodpai'
-  password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-  port: 443
-  server: 27f9380a-ta1og0-tgzvop-hns7.sg.oshuawei.com
-  tls: true
-  type: http
-  username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+    path: /danfeng?ed=2560
 - client-fingerprint: chrome
-  encryption: none
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
   name: 'B - 🇸🇬 SG 23 TG: @nodpai'
   network: ws
-  port: 60030
-  security: tls
-  server: 69.63.214.151
+  port: 8443
+  server: 178.128.204.59
   servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
       Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfeng
-- name: 'C - 🇸🇬 SG 24 TG: @nodpai'
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 'B - 🇸🇬 SG 24 TG: @nodpai'
   network: ws
-  port: 37215
-  server: 175.201.34.127
+  port: 443
+  server: 152.42.175.157
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xfxl35a.node-edge.gfw.hidns.co
+    path: /danfeng?ed=2560
+- name: 'B - 🇸🇬 SG 25 TG: @nodpai'
+  password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
+  port: 443
+  server: f4fe58f2-tegxs0-tey9ea-jjv2.sg3.oshuawei.com
+  tls: true
+  type: http
+  username: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
+- name: 'B - 🇸🇬 SG 26 TG: @nodpai'
+  network: ws
+  port: 2053
+  security: tls
+  server: 85.192.61.91
+  tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
       Host: ynwta9.api-edge.fgfw.qzz.io
-    path: /danfengsecurity=tls
-- name: 'C - 🇸🇬 SG 25 TG: @nodpai'
-  network: ws
-  port: 443
-  server: 82.21.92.109
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfengsecurity=tls
-- name: 'C - 🇸🇬 SG 26 TG: @nodpai'
-  network: ws
-  port: 2083
-  security: tls
-  server: 8.39.125.222
-  servername: kalami-eew.pages.dev
-  tls: true
-  type: vless
-  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
-  ws-opts:
-    headers:
-      Host: kalami-eew.pages.dev
-    path: /fp=chrome
+    path: /danfeng
 - name: 'C - 🇸🇬 SG 27 TG: @nodpai'
   network: ws
-  port: 2083
-  server: 68.183.215.59
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-    path: /danfengfpsecurity=tls
-- client-fingerprint: chrome
-  encryption: none
-  name: 'C - 🇸🇬 SG 28 TG: @nodpai'
-  network: ws
-  port: 2083
-  security: tls
-  server: 8.39.125.54
+  port: 443
+  server: 198.41.223.84
   servername: kalami-eew.pages.dev
+  skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
   ws-opts:
     headers:
       Host: kalami-eew.pages.dev
-    path: /
-- name: 'C - 🇸🇬 SG 29 TG: @nodpai'
-  network: ws
-  port: 8443
-  server: 38.143.19.208
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-    path: /danfengsecurity=tls
+    path: /fp
+  xudp: true
+- name: 'C - 🇸🇬 SG 28 TG: @nodpai'
+  password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
+  port: 443
+  server: 2dccc9bb-ta1og0-thv9l4-1jbj0.sg.oshuawei.com
+  sni: 2dccc9bb-ta1og0-thv9l4-1jbj0.sg.oshuawei.com
+  tls: true
+  type: http
+  username: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
 - client-fingerprint: chrome
-  name: 'C - 🇸🇬 SG 30 TG: @nodpai'
+  name: 'C - 🇸🇬 SG 29 TG: @nodpai'
   network: ws
   port: 443
-  security: tls
-  server: 188.239.9.91
-  servername: 3-7v4.pages.dev
-  tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: 3-7v4.pages.dev
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: 'D - 🇸🇬 SG 31 TG: @nodpai'
-  network: ws
-  port: 2096
   security: tls
   server: 8.39.125.31
   servername: tristandeng.cc.cd
-  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 52f94104-7a84-4342-8bcd-96969eb46cbe
@@ -410,36 +457,32 @@ proxies:
     headers:
       Host: tristandeng.cc.cd
     path: /
-- name: 'D - 🇸🇬 SG 32 TG: @nodpai'
+- client-fingerprint: chrome
+  encryption: none
+  name: 'C - 🇸🇬 SG 30 TG: @nodpai'
   network: ws
   port: 8443
-  server: 31.56.229.21
+  security: tls
+  server: 172.64.147.10
+  servername: kalami-eew.pages.dev
+  tls: true
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
   ws-opts:
     headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfengsecurity=tls
-- name: 'D - 🇸🇬 SG 33 TG: @nodpai'
+      Host: kalami-eew.pages.dev
+    path: /
+- name: 'C - 🇸🇬 SG 31 TG: @nodpai'
   network: ws
   port: 443
-  server: 154.21.83.8
+  server: 43.161.221.27
+  servername: babayaga-6i7.pages.dev
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
   ws-opts:
     headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-    path: /danfengsecurity=tls
-- name: 'D - 🇸🇬 SG 34 TG: @nodpai'
-  network: ws
-  port: 29015
-  server: 211.192.237.97
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-    path: /danfengsecurity=tls
+      Host: babayaga-6i7.pages.dev
+    path: /?ed=2560
 - name: 新加坡2|@ripaojiedian
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
